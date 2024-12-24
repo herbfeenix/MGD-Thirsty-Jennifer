@@ -1,0 +1,203 @@
+{
+    "name": "Suckubus Blowjob Booth",
+    "CardType": "Event",
+    "CardLimit": "2",
+    "Description": "Jennifer has set up a not-so-cleverly concealed trap on the mountainside...",
+    "requires": [ "Temple Checkpoint Gem"],
+    "Speakers": [
+                  {
+                    "name": "Suckubus",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+                ],
+    "EventText": [
+      {
+          "NameOfScene": "EventStart",
+          "theScene": [
+                        "As you travel along the winding path up the mountain, you come across a glowing pink sign reading 'Blowjob Booth' hung on an a dead tree, with an arrow pointing to a luxuriously apportioned tent.|n|  Making your way a bit further along, you see the interior is furnished with a comfortable-looking pink chair with a small end-table on one side of the tent, and directly across from the tent flap is a curtain with a waist-high hole in the fabric.  A sign hanging on the curtain reads 'Stick cock here for an amazing BJ.♥'.",
+                        "IfPlayerOrgasm", "TooHornyToRefuse",
+                        "IfFetishLevelEqualOrGreater", "Oral", "25", "GloryHoleTemptation",
+                        "JumpToScene", "GloryHoleOptions"
+                    ]
+      },
+            {
+                "NameOfScene": "GloryHoleTemptation",
+                "theScene": [
+                                "The temptation to enjoy the oral attentions that might be through that hole threatens to completely overtake you...",
+                                "StatCheck",
+                                "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "50", "2",
+                                "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "75", "3",
+                                "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "100", "5",
+                                  "Temptation",
+                                  "20",
+                                  "GloryHoleOptions",
+                                  "Fail",
+                                  "Stick your dick in the glory hole."
+                          ]
+            },
+                  {
+                      "NameOfScene": "TooHornyToRefuse",
+                      "theScene": [
+                                  "Your heart flutters and your aching cock throbs at the thought of a blowjob, you're far too horny to do anything besides frantically unlace your pants to free your throbbing erection and slide it through the hole.",
+                                  "JumpToScene", "Stick your dick in the glory hole."
+                                ]
+                  },
+      {
+          "NameOfScene": "GloryHoleOptions",
+          "theScene": [  "IfPlayerOrgasm", "TooHornyToRefuse",
+                        "Menu",
+                          "Stick your dick in the glory hole.",
+                          "Peek through the hole.",
+                          "Look around the tent.",
+                          "Keep moving.",
+                        "EndLoop"
+                    ]
+      },
+          {
+              "NameOfScene": "Keep moving.",
+              "theScene": [ "You hurry past the hole in the wall."
+                        ]
+          },
+          {
+            "NameOfScene": "Don't Drink",
+              "theScene": [ "You decide to wait and keep looking around",
+                            "JumpToScene", "GloryHoleOptions"
+                        ]
+          },
+          {
+            "NameOfScene": "Look around the tent.",
+            "theScene": [ "Taking a moment to look around the tent, you notice a tented note on the table, along with an pink beverage that smells sweet and fruity.   The note reads 'For aftercare. Drink up.'",
+                          "Menu",
+                            "Drink the beverage first",
+                            "Don't Drink",
+                          "EndLoop"
+                      ]
+        },
+        {
+          "NameOfScene": "Drink the beverage first",
+          "theScene": [
+                        "Ignoring the instructions on the card, you take a swig from the glass, the liquid sweet and cooling on your throat.  It tastes faintly tropical, and as you swallow, you feel a jolt in your loins, cock twitching in response. ",
+                        "You feel erotic energy flowing to your groin and radiating outwards, your body tingling with the sensation. Your cock, already semi-hard, quickly stiffens and throbs as the strange cocktail works on you.",
+                        "RemovePerkQuietly", "Blue Balls", 
+                        "RemovePerkQuietly", "Aching Blue Balls", 
+                        "GivePerkQuietly", "Overflowing Blue Balls", 
+                        "In moments your balls are aching like you haven't had an orgasm in a week.  Your cock begins drooling, and the hole in the curtain begins to look very tempting.",
+                        "JumpToScene", "GloryHoleOptions"
+          ]
+        },
+          {
+              "NameOfScene": "Peek through the hole.",
+              "theScene": [ "DamagePlayerFromMonster", "Suckubus", "Suckubus Temptation",
+                          "You crouch down and peek through the hole, and you're met with the captivating sight of Jennifer's beautiful curves from two angles, her curvaceous ass perfectly displayed in a mirror while her full, sensual lips are almost close enough to kiss.  Or fuck.[DamageToPlayer]",
+                          "Menu",
+                            "Keep staring...",
+                            "Stand back up.",
+                          "EndLoop"
+                        ]
+          },
+                {
+                    "NameOfScene": "Stand back up.",
+                    "theScene": [  "DisplayCharacters",
+                                "EndLoop",
+                                  "You stand back up with a surge of arousal, your thoughts focused on blowjobs, and you see Jennifer's long, sinuous tongue extend through wall...",
+                                  "JumpToScene", "GloryHoleOptions"
+                              ]
+                },
+                {
+                    "NameOfScene": "Keep staring...",
+                    "theScene": [ "DamagePlayerFromMonster", "Suckubus", "Suckubus Temptation",
+                                "With slowly rising cock, you keep gazing at Jennifer through the hole in the wall, captivated by her luscious lips and perfect booty accentuated by her tiny thong.  Noticing you watching, she gives her lips a playful lick, winking at you as she blows you a kiss.  The combined effect has your cock slowly drooling precum in your pants.[DamageToPlayer]",
+                                "Menu",
+                                  "Masturbate.",
+                                  "Stand back up.",
+                                "EndLoop"
+                              ]
+                },
+                    {
+                        "NameOfScene": "Masturbate.",
+                        "theScene": [ "ChangeBGM", "music/Loss/Falling Down.mp3",
+                                    "DamagePlayerFromMonster", "Suckubus", "Suckubus Temptation",
+                                    "You quickly unlace your pants and free your straining cock with a sigh of relief, and start to gently stroke yourself while staring at Jennifer's perfect tits, making your cock ache and throb as you fantasize about her gorgeous lips worshipping your length.  [DamageToPlayer]",
+                                    "DamagePlayerFromMonster", "Suckubus", "Suckubus Temptation",
+                                    "'I want to feel it in my mouth,' Jennifer murmurs, her voice a low, husky caress. 'Go on, [ThePlayerName]. Feed me that cock.[DamageToPlayer]",
+                                    "Your cock twitches in your hand, growing harder at her words. You step closer to the curtain, your free hand reaching out to stroke the soft fabric.",
+                                    "'Fuck, that's a nice cock,' Jennifer sighs, her hot breath washing over your sensitive flesh, now mere inches from the lips currently occupying your mind.",  
+                                    "Slide it in, let me show you how good my mouth can make you feel",
+                                    "Unable to control yourself any more, you step forward the remaining few inches to the hole, feeling the curtain brush against your thighs.",
+                                    "JumpToScene", "Stick your cock in the glory hole."
+                                  ]
+                    },
+          {
+              "NameOfScene": "Stick your cock in the glory hole.",
+              "theScene": [ "ChangeBGM", "music/Loss/Falling Down.mp3",
+                          "ChangeArousalByPercent", "20",
+                            "She leans forward, her lips brushing against the tip of your cock, and you let out a low groan. Her mouth opens, and she takes you in, her tongue swirling around the sensitive head, tasting your precum with a little moan. You grip the curtain, your knuckles white as you struggle to keep from thrusting into her mouth.",
+                            "ChangeArousalByPercent", "20",
+                            "She hums around your sensitive shaft, the vibration sending pleasurable waves down your shaft, and you feel a warm, wet suction as she starts to bob her head.",
+                            "ChangeArousalByPercent", "20",
+                            "Jennifer's mouth is a miracle, her lips sealing around your cock like a hot, wet vacuum. The sound of her sucking is obscene, wet and sloppy and music to your ears. You feel her throat milking you, swallowing around the head of your cock, drawing a moan from your lips",
+                            "ChangeArousalByPercent", "20",
+                            "She pulls back, her juicy lips popping off your cock with a lewd smack, only to dive back down, taking you even deeper. You feel her nose press against your stomach as she swallows you down, her throat constricting around you, over and over as she milks you, slowly dragging you closer to release." ,
+                            "ChangeArousalByPercent", "20",
+                            "Soon she has you achingly close to filling her mouth, your mind blanking with pleasure, but just as you're about to lose control, she pulls back, her lips popping off your cock with a wet, obscene sound. You groan in frustration, your hips jerking forward, desperate for more. 'Wait for it, big boy.'",
+                            "ChangeArousalByPercent", "20",
+                            "You stand there transfixed as she begins to twist her head side to side, her red lips gliding effortlessly over your shaft.  In your mind's eye, you can see her on her knees, greedily devouring your cock with her perfect lips and tongue.",
+                            "PlayerOrgasm", "1",
+                            "With a groan that echoes across the mountain, you feel the familiar tightening in your balls as you begin to flood her mouth with your thick sperm. Jennifer sucks and swallows as much as she can milk out, her throat working relentlessly to milk you. She moans around your cock, the vibrations sending shockwaves of pleasure through your entire body.",
+                            "PlayerOrgasm", "1",
+                            "You can feel your orgasm crashing through you like waves, every spurt another jolt of pleasure as she continues to suck and swallow, her hands milking your shaft and massaging your balls, her lips and tongue working to coax out every last drop. The sensation is overwhelming, and you begin to feel light-headed as you come down from your orgasmic high.",
+                            "You sigh with post-blowjob bliss as she releases your spit-slicked cock from her lips, only to gasp in pleasured shock as her attacks your cock again, suddenly sucking you back in and bobbing up and down with slurping sucks, draining every drop of cum from your cock before releasing your cock with a wet pop.",
+                            "You stagger back from the curtain, making your way to the chair on knees turned to jelly.  Your breath comes in ragged pants, and you need a take a moment to collect yourself",
+                            "ChangeSensitivity", "Sex", "10",
+                            "ChangeFetish", "Oral", "10",
+                            "DisplayCharacters",
+                              "EndLoop",
+                            "IfPlayerSpiritGone", "GainASpirit",
+                            "JumpToScene", "LeaveCheck"
+
+                        ]
+          },
+          {
+            "NameOfScene": "Drink the beverage after",
+            "theScene": [
+                          "Following the instructions on the card, you take a swig from the glass, the liquid sweet and cooling on your throat.  It tastes faintly tropical, and as you swallow, you feel a jolt in your loins, cock twitching in response. ",
+                          "You feel erotic energy flowing to your groin and radiating outwards, your body tingling with the sensation. Your cock, already semi-hard, quickly stiffens and throbs as the strange cocktail works on you.",
+                          "GivePerkQuietly", "Blue Balls", 
+                          "In moments your balls are refilled, and you feel ready to go again, as if you haven't just had your balls sucked dry.",
+                          "JumpToScene", "LeaveCheck" 
+            ]
+          },
+          {
+            "NameOfScene": "LeaveCheck",
+            "theScene": [
+              "Menu",
+                "Drink the beverage after",
+                "Recollect Yourself",
+                "Relax in the tent",
+              "EndLoop"
+          ]
+          },
+          {
+              "NameOfScene": "Relax in the tent",
+              "theScene": [
+                "JumpToScene", "Recollect Yourself"
+              ]
+          },
+                {
+                    "NameOfScene": "GainASpirit",
+                    "theScene": [
+                                  "ChangeSpiritQuietly", "1",
+                                  "JumpToScene", "Recollect"
+                              ]
+                },
+
+          {
+              "NameOfScene": "Recollect Yourself",
+              "theScene": [ "ChangeBGM", "music/Forest Dungeon/Stalwick-_Forest_Dungeon-Lurking.mp3",
+                            "You take a moment to recollect yourself as best you can before carrying on, your thoughts haunted by Jennifer's incredible mouth and cock aching to feel it again...",
+                            "ChangeFetish", "Oral", "5"
+                          ]
+          }
+                ]
+}

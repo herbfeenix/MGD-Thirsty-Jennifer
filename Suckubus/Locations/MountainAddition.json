@@ -1,0 +1,25 @@
+{
+    "name": "Mountain",
+    "Addition": "Yes",
+    "Monsters": [ "Suckubus"],
+    "MonsterGroups": [
+                  {
+                      "Group": []
+                  }
+                ],
+    "Events": [ "Suckubus Blowjob Booth"],
+    "Quests": [ ""],
+    "Adventures": [ ""],
+    "Treasure": [
+                {
+                    "Common": [ ""]
+                },
+                {
+                    "Uncommon": [ ""]
+                },
+                {
+                    "Rare": [ ""]
+                }
+              ]
+
+}

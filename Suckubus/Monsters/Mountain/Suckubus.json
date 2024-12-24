@@ -1,0 +1,935 @@
+{
+    "name": "Jennifer",
+    "IDname": "Suckubus",
+    "species": "Demon",
+    "gender": "female",
+    "description": "Despite her ample curves, wide hips and full breasts, your eyes are immediately drawn to the tempting red pout of the demon woman's lips as she flashes you a playful smirk. This curvaceous demoness' full bosom practically spills out of the skimpy triangles of fabric struggling to contain them, and her smooth labia are barely concealed by her equally tiny thong",
+    "encyclopedia": "A suckubus is like any other succubus really, but they're specialists in fellatio.  It's not recommended to let her get her lips on your cock, unless you want to spend the next few hours getting sucked dry like a box of juice.\n \n Through acts of extraordinary sluttiness, Jennifer has evolved into a suckubus and has been prowling the mountains seeking virile men to blow away.",
+    "tags": "none",
+    "generic": "False",
+    "requires": [""],
+    "skillList": ["Suckubus Oral Enticement", "Suckubus Blowjob", "Suckubus Nimble Capture", "Seductive Head Bob", "Suckubus Ball-Draining Blowjob", "Suckubus' Tantalizing Tease", "Mind-Blowing Blowjob", "Suckubus Nimble Capture","Suckubus Pinning Sixty-Nine Capture", "Mind-Blowing Sixty-Nine", "Suckubus Thigh Grip Pin", "Mind Siphon", "Suckubus Powerful Suction", "Suckubus' Seductive Ride", "Suckubus's Powerful Pompoir", "Suckubus' Entrancing Lovemaking"],
+    "perks": [ "Semen Eater", "Energy Drainer", "Alluring", "Anal Adverse", "Pinpoint Pleasure", "Skilled Tongue", "Expert Tongue", "Monster Pacing", "Great Ass", "Great Tits", "Clingy", "Grappler", "Dick Sucking Lips"],
+    "stats": { "lvl": "40",
+              "Exp": "600",
+              "max_hp": "666",
+              "max_ep": "150",
+              "max_sp": "1",
+              "Power": "7",
+              "Technique": "10",
+              "Intelligence": "20",
+              "Allure": "35",
+              "Willpower": "15",
+              "Luck": "15"
+    },
+    "Fetishes": [""],
+    "BodySensitivity": {"Sex": "50",
+                        "Ass":"150",
+                        "Breasts":"100",
+                        "Mouth":"50",
+                        "Seduction": "150",
+                        "Magic": "50",
+                        "Pain": "50",
+                        "Holy": "100",
+                        "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+              "Stun": "0",
+              "Charm":"100",
+              "Aphrodisiac":"-50",
+              "Restraints":"100",
+              "Sleep":"150",
+			  "Trance":"100",
+        "Paralysis": "0"
+    },
+    "moneyDropped": "100",
+    "ItemDropList": [
+                      {
+                        "name": "Unbound Rune",
+                        "dropChance": "100"
+                      }
+                    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "NormalLoss",
+            "move": "",
+            "stance": "",
+            "includes": [ ""],
+            "theScene": ["JumpToRandomScene",
+                            "Long Edging BJ",
+                            "Sucked Dry BJ", 
+                            "Energy Draining BJ",
+                        "EndLoop"
+                      ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "Energy Draining BJ",
+            "move": "",
+            "stance": "Blowjob",
+            "includes": [ "Suckubus"],
+            "theScene": [ "ChangeImageLayer", "Expression","1", "Excited",
+                          "You moan in defeat as [AttackerName] looks down at you triumphantly.  With an agonizingly slow suck up your length, [AttackerName] finally releases your shaft with a smacking pop.  'Mmm, it looks like I've finally sucked the resistance out of you.' she purrs, gently fondling your balls with her fingertips, seemingly gauging their contents.",
+                          "ChangeImageLayer", "Expression","1", "LewdInvitation",
+                          "Speaks",
+                          "'It feels like you've still got a lot left to give,' she says with a slutty lick of her painted lips.  'Now, I'm going to suck you dry. Every... last... Drop... Of your cum!' she says, with a giggle.",
+                          "ChangeImageLayer", "Base", "1", "Nude",
+                          "ChangeImageLayer", "Expression", "1", "LipLick",
+                          "Speaks",
+                          "As you no doubt realize by now, we succubi have evolved to extract semen in the most mutually beneficial way possible.",
+                          "ChangeImageLayer", "Expression", "1", "Smug",
+                          "Speaks",
+                          "Take a look at my lips. Do you see how full and thick they are? Do you know why that is? My mouth was built for one thing and one thing only.",
+                          "As you watch, she presses those plump lips against the underside of your shaft, planting a series of gentle kisses down your length.",
+                          "Speaks",
+                          "Sucking and milking. They are made to suck you. They are made to drain you. Your cum… Your delicious semen... It feeds me. It nourishes me. And that's why I need to suck you dry.",
+                          "Still staring up at you, her lips reach your base and keep going lower, kissing and teasing your heavy balls with her slick tongue",
+                          "Speaks",
+                          "Mm. These swollen testicles are so sensitive. I love how they feel in my hands, and mouth... especially when they're so full and heavy.",
+                          "Kissing her way back up, [AttackerName]' wet tongue slips out to lick and flick over the underside of your shaft, sliding up to tickle the frenulum before licking up a droplet of precum",
+                          "Speaks",
+                          "You need me to suck this cock, don’t you?  My tongue, my lips, and my words have spent all that time filling your balls to the breaking point, now all you can think about are my luscious red lips, wrapped around that cock.",
+                          "She brings her lips to barely an inch away from your cockhead. As you watch, part of you can't wait to see those perfect, dick sucking lips around your cock.",
+                          "ChangeImageLayer", "Expression", "1", "LipLick",
+                          "She starts to slowly, gently bobbing her head over your sensitive cock head, her nimble tongue swirling and teasing around your tip, making you groan in pleasure.",
+                          "One of her hands starts to massage and tease your aching balls, gently rolling the heavy sack in her soft fingers.",
+                          "ChangeImageLayer", "Expression", "1", "SmugExtraSmug",
+                          "Speaks",
+                          "Be careful what you wish for...",
+                          "You let out another moan as she suckles your head a little harder now, her lips slipping just under the head as she slowly slides you in.",
+                          "Speaks",
+                          "Is that a little drop of precum for me?",
+                          "The intensity increases drastically as she sucks hard, drawing the fluid up and out of your shaft with a satisfied moan.",
+                          "As if that first taste has awoken something in her, [AttackerName] begins rotating her head back and forth, lips gliding up and down and tongue twirling, sucking you into a vortex of oral pleasure.",
+                          "ChangeImageLayer", "Expression", "1", "Lewd",
+                          "PlayerOrgasm", "1",
+                          "Even as you cum, she never slows down, loudly slurping and sucking on your manhood while her tongue continues to lick your length with unnatural grace.",
+                          "ChangeImageLayer", "Expression", "1", "Smug",
+                          "The constant sexual onslaught is quickly overwhelming you, and even as your last orgasm ends, you find yourself just on the verge of cumming again.",
+                          "ChangeImageLayer", "Expression", "1", "Lewd",
+                          "You find your eyes drawn to the lewd spectacle of her licking her lips, and as your eyes meet, hers flash and pulse with pink hearts, leaving you with an overwhelming need to give her more of your semen.",
+                          "ChangeImageLayer", "Expression", "1", "SmugExtraSmug",
+                          "A soft glow emanates from her as she absorbs your cum, and once it finally dies down she starts to work your shaft with her mouth once more.",
+                          "Now, it's time for you to learn the true meaning of 'sucked dry'.",
+                          "ChangeImageLayer", "Expression", "1", "Lewd",
+                          "Her lips meet your cock again, sealing your fate as she begins to suck you with renewed fervor. This time, her technique is different, more deliberate. It's clear that she wants to prolong your suffering. She wants to draw out the process, make you squirm in desperation.",
+                          "ChangeImageLayer", "Expression", "1", "Smug", 
+                          "Your cock aches as she mercilessly drags her lips down your length, savoring every ounce of pleasure she forces from you. [AttackerName]'s tongue laps at your shaft, tickling your sensitive flesh and sending ripples of ecstasy coursing through your body.",
+                          "Meanwhile, you feel something more than just precum flowing out of your cock.  With each bobbing suck, she's draining a little more of your energy, draining it in exchange for these blissful sensations.",
+                          "ChangeImageLayer", "Expression", "1", "Lewd",
+                          "You can feel your essence seeping from your cock, trickling down onto her tongue and pooling in her mouth. [AttackerName]'s eyes glimmer with anticipation, her gaze fixed on your groin as she works tirelessly to drain you.",
+                          "'Mmm,' she murmurs, savoring the taste of your precum. 'You're a delicious treat, aren't you? Just look at me, guzzling down your sweet, sticky juice.'",
+                          "ChangeImageLayer", "Expression", "1", "Smug",
+                          "[AttackerName]'s tongue lashes out, greedily scooping up any droplets of juicy pre cum that escapes her lips.",
+                          "Your vision blurs as you enter a state of complete euphoria, everything around you fading away until you exist in a world of pure sensation. [AttackerName]'s mouth, her tongue, her throat, become a living extension of your own desires.",
+                          "ChangeImageLayer", "Expression", "1", "Excited",
+                          "The room seems to have melted away, your existence narrowing down to the pulsating, orgasmic connection between your cock and her eager mouth. You sense her hunger growing stronger, her desire for your precious seed intensifying with each passing moment",
+                          "ChangeImageLayer", "Expression", "1", "Lewd", "PlayerOrgasm", "1",
+                          "Throughout this whole experience, her head has never stopped moving, slipping up and down the length of your cock with practiced precision.  Her hand gives your aching balls a gentle squeeze, and with a little wink she hilts your throbbing length down her throat.",
+                          "You grin from the overwhelming pleasure of feeding the demonic woman everything you can as she continues to suck your throbbing length.",
+                          "PlayerOrgasm", "1",
+                          "Your arms go slack from lack of energy, and you throw your head back with one last cry of pleasure as she takes in your final thick load of semen.",
+                          "ChangeImageLayer", "Expression", "1", "Excited",
+                          "As you lay there, spent and breathless, she continued to lavish attention on your softening, twitching member for a bit longer, drawing out the last few dregs of sperm from your drained, aching balls",
+                          "She slowly pulls away with a wet pop, leaving your cock twitching in the cool air as you find yourself quickly blacking out...",
+                          "Speaks",
+                          "You look absolutely drained",
+                          "A dopey grin from her words spreads across your face as your world fades to black...",
+                          "ChangeFetish", "Oral", "10",
+                          "ChangeSensitivity", "Sex", "5"
+                      ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "Long Edging BJ",
+            "move": "",
+            "stance": "Blowjob",
+            "includes": [ "Suckubus"],
+            "theScene": [ "ChangeImageLayer", "Expression","1", "Excited",
+                "You collapse with a moan, completely unable to resist the succubus' allure any longer. The demon woman giggles mischievously as she leans over you, her full bosom practically spilling out of her skimpy top.",
+                "Speaks",
+                "Look at you now, all softened up~ Now I get to play with you aaaaaall I want.~",
+                "ChangeImageLayer", "Expression", "1", "Excited",
+                "The demoness licks her voluptuous lips as she says that, her sultry teasing voice penetrating your brain, sweet as honey and charged with irresistible allure. You can't help but shiver in anticipation as she speaks.",
+                "Despite her ample breasts dangling above you, you find your gaze helplessly drawn to her plump, glistening lips.",  
+                "She seems quite aware of the effect she has on you, her tongue flicking back and forth over them, her mouth looking ready, eager even, to suck your soul right out of your cock",
+                "Helpless as you are, the thought is enough to get you twitching, and the demoness notices it with excitement. With a smile, she drops to her knees, and exposes your cock with one swift pulling motion, tossing your clothes aside.",
+                "Speaks",
+                "Ohhhh my, someone is excited to see me.~",
+                "Her long tongue slithers out of her mouth, and it only takes a single lick to get you rock hard for the succubus. You let out a needy, lusty moan, unable to resist her teasing any longer.",
+                "Speaks",
+                "That's it, good boy.~ A succubus' mouth is just like her pussy- it's perfectly made to drain you dry.  And I've got the best mouth, I was totally the blowjob queen of Succ-U~",
+                "The woman flashes a depraved smile, and her tongue darts at you again, this time fully wrapping around your length. ",
+                "The sensation feels amazing, its wet yet firm texture holding your manhood tightly, the aphrodisiacs in her saliva making you pulse and throb, your penis fully at the mercy of her snake-like tongue.",
+                "And she begins to stroke you that way, her tongue slowly pumping your cock up and down. You grunt and groan at the amazing pleasure, feeling like you could orgasm just from her tongue, barely managing to hold it in",
+                "Suddenly, with a wet slurp, her tongue withdraws from your length, returning to her mouth and leaving you you twitching in the air.  She grins at you teasingly before she speaks again.",
+                "Speaks",
+                "'I hope you're holding it in~ This is just foreplay... Don't you want to find out what a real cocksucker can do?",
+                "She grins as she speaks, gently pumping your spit slick shaft with a loose fist, letting you come back from the edge for a moment.",
+                "In a single motion, the curvy demoness bobs her head down and takes the tip of your throbbing cock in her mouth. The sensation is leaves your mind overwhelmed with bliss, her mouth a wet, suctioning whirlwind of pleasure",
+                "You feel your balls swelling as she sucks and bobs, her every ministration drawing you ever closer to release... Frustratingly, you find yourself trapped at the edge, her expert ministrations slowly letting you come back just a bit.",
+                "You let out a moan of despair as you feel that pleasure ebbing away, your gaze locked on your manhood, trapped within the cum-thirsty demon's powerful mouth.  The sexy succubus winks at you. 'Mmmmph, not yet, my boy~ I need to fully taste your delicious cock first.'",
+                "Her full, luscious cocksucking lips grip your cock so strongly, you feel completely, inescapably trapped by her incredible mouth, your cock fully enslaved by it's pleasure. ",
+                "You couldn't pull away if you wanted to, and you certainly don't want to- eagerly waiting for release, but also wishing you could stay between her lips forever.",
+                "On and on, her expert lips and tongue work you over and over, her tongue stroking your length in time with the movements of her head.",
+                "Her edging blowjob is slow and merciless, bathing your cock with intense pleasure to bring you to the edge and back, again, and again, until you've lost count of how many times she's edged you.",
+                "You lay there groaning, enjoying and enduring the maddening pleasures of her mouth until finally, thankfully, she decides to release you. 'Now, my boy, it's time for you to release.  Aaaall that pent up seed, every drop of your warm, sticky spunk'",
+                "Finally giving in to her lustful hunger, [AttackerName]' technique goes into overdrive.  The wet vacuum of her mouth suddenly engulfs your entire length, capturing you fully in one quick stroke.  Up and down, loudly slurping while twisting her lips around, her head a blur in your lap as she works you to the edge one final time.",
+                "Speaks",
+                "That's it, feed me.  I want it, I need it, need to drink you up. Go on and spurt it out for me baby... I'll drink it all for you, every last drop of your sticky seed, aaaall down my throat...", 
+                "She begs for your load, betraying her desperation is at least equal to your own.  You doubt you could resist her plump, juicy lips squeezing your cock, trying to milk you for all you're worth.  With your balls overstuffed as they are, you aren't sure you want to, either...",
+                "Her tongue goes wild on your shaft, whirling around your tip and stroking the underside of your length, pumping and sucking you up to and finally, merciflly, over the edge.",
+                "Unable to defy her ravenous mouth, your back arches with a loud groan while your cock spurts it's first thick rope deep inside her hungry mouth.", 
+                "She lets out a moan at her first taste of your seed and redoubles her effots, lips desperately sucking you, head bobbing up and down with the rhythm of your spurting cock, her expert blowjob prolonging your orgasm to inhuman lengths.",
+                "On and on, her head continues to bob over your cock, her lips working to draw every last spurt of seed of of your balls.  After what seems like forever, you're finally spent, completely drained of your seed and strength.",
+                "Not long after your orgasm finishes, you happily pass out, luxuriationg in the sensation of her wet, suckling mouth milking every last drop of seed your cum out of your broken, defeated cock.",
+                "ChangeFetish", "Oral", "10",
+                "ChangeSensitivity", "Sex", "5"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "Sucked Dry BJ",
+            "move": "",
+            "stance": "Blowjob",
+            "includes": [ "Suckubus"],
+            "theScene": [ "ChangeImageLayer", "Expression","1", "Excited",
+                "You collapse with a moan, completely unable to resist the succubus' allure any longer. The demon woman giggles mischievously as she leans over you, her full bosom practically spilling out of her skimpy top.",
+                "Speaks",
+                "Looks like I've finally drained the resistance out of you.~ 'Now, it's time for a real feast...", 
+                "[AttackerName] licks her luscious lips in anticipation as her gaze settles on your throbbing cock and aching balls",
+                "The demoness' tongue draws your gaze to her wet, waiting mouth as she says that, her sultry teasing voice penetrating your brain, sweet as honey and charged with irresistible allure, forcing a shiver of anticipation from you.",
+                "In one swift motion your clothing is torn away , exposing your throbbing cock and aching balls for her to work on.  Her full, heavy breasts jiggle alluringly as she does, and her curvy hips sway as she kneels in front of you.",
+                "Lust rises inside you as you gaze upon her perfect form, unable to stop your eyes from roaming the demoness' curvacious form, and fantasizing about how she's about to once again take you into that glorious mouth",
+                "The succubus giggles as you stare, tracing up the length of your aching shaft with one finger, making you shudder with excitement.",
+                "Speaks",
+                "Like what you see, darling~? Why am I even asking, Of course you do!  Who wouldn't love a pair of tits like these...",
+                "Speaks", 
+                "'We succubi are meant to be perfect in every way, and as you've already felt, I'm a master at providing oral pleasure... Just relax and let me help you feel wonderful, I'll milk you completely dry... Promise!",
+                "She lets out a little giggle as she plumps her heavy breasts before freeing them from the confines of her skimpy bra, letting your eyes drink in their full, unrestrained glory",
+                "Helpless to resist the demoness' charm, you dumbly nod, your eyes fixed on her full, alluring tits. She notices your stare and cups them, squishing them together and making them appear even bigger for you, making your waiting cock throb with anticipation.",  
+                "Speaks",
+                "Since you like these so much, should I get you nice and throbbing between these heavy tits? It's not my usual, but I'll indulge you~,",
+                "She coos sweetly, pushing your thighs apart before lowering herself to her knees before you, gazing at your eager cock with hunger in her eyes.",
+                "In one quick motion, the succubus wraps her full breasts around your waiting cock, forcing a gasping moan from you- which quickly turn into loud, repeated moans of helpless bliss as the sexy demon begins to slowly titfuck you.",
+                "Her soft, gorgeous breasts bouncing up and down on your rock-hard cock feel amazing, further enhanced by a trickle of drool she lets leak from between her lips, her saliva lubricating the tight channel between her tits",
+                "Completely at her mercy and desperate for more pleasure, you begin to move your hips, thrusting in concert with her chest. Your balls quickly swell from the incredible pleasure, and completely incapable of resisting her titfucking, you relax into blissful pleasure.",
+                "Before long, your cum begins to rise, pressure building in your cock as you get closer and closer to an intense, ball-draining orgasm.  'Ooh, looks like you're almost there already.  Well, we don't want to waste any, do we?' she asks with a mischievous grin",
+                "Before you can reach that blissful release you crave, [AttackerName] plunges her head down, slurping the tip of your up and cock into her devilish mouth. Plump, juicy lips tightly wrap around the tip of your cock, gripping you with wet suction.",
+                "Her mouth sucks your cockhead so intensely, you feel like she's pulling the cum directly from your overfilled balls.  You can't take more than a few seconds of her satiny tits and ravenous suction  before you release a thick load of cum.", 
+                "Your orgasm goes on and on, throbbing cock spurting load after load right into the succubus' hungry, waiting mouth. She lets out a muffled moan of appreciation, thoroughly enjoying your taste as she continues sucking, slurping, and licking up every drop of your release.",
+                "Spurred on by your first load, [AttackerName] releases her tits hold on your shaft, exposing your shaft to the cool air for just a second before engulfing you once again in the wet inferno of her mouth. You can't help but moan and buck your hips as her long tongue snakes out, wrapping all the way down to your shaft,",
+                "Her plump lips feel so soft yet so strong, powerfully sucking your cock while her slippery tongue grips your base, stroking like a hand in time to with her suction. Your cock is trapped in a kaleidosope of sensations as she uses her cheeks, palate, throat, every part of her mouth to caress your length.",
+                "The sensations combine to leave you stunned with pleasure, mind blanked by her bliss-inducing blowjob as the urge to explode in her mouth builds.  Bobbing, sucking, slurping, tongue stroking until feel like your soul is about to sucked out through the tip your cock.",
+                "Speaks",
+                "Getting close again? Go ahead and spurt it out baby, right down my throat. That's right, give me more of that thick cum...",
+                "Her soft hands stay firmly wrapped around your length while she speaks, stroking your length with a slight twist, her dextrous fingers manipulating your balls masterfully, priming your overfilled cock and aching balls for it's next blast.",
+                "Unable to hold back in the face of this overwhelming pleasure, you drain yourself once again between her soft lips, allowing her divine mouth to suck spurt after spurt of your hot, thick seed from your overworked testicles.  On and on, you release rope after rope, spurred on by her insistent sucking and expert fingers on your emptying balls.",
+                "She allows only a second to catch your breath, gently suckling the last drops from your cum tube while you groan and writhe, body wracked with the overwhelming pleasure of her mouth. After what feels like ages she releases you, long tongue snaking out to lick up an errant drop of seed from her lips",  
+                "Speaks",
+                "Mwah!  Delicious! I need more...", 
+                "And with that, she dives back down onto your twitching, overstimulated cock, plunging you once again into the mind-blowing pleasure of her expert oral ministrations", 
+                "She keeps you cumming like this over and over, her slick wet lips and tongue leaving you gasping, moaning and groaning on the ground, as she milks orgasm after orgasm from your throbbing cock.",
+                "You lie there for a long time, utterly defeated and enslaved to the sensations of her mouth, spurting load after load for the hungry succubus, unable and unwilling to resist her as she milks your balls completely dry",
+                "Finally, mercifully, you're drained and she releases your cock with a loud pop that makes you shudder with the aftershocks of pleasure.",
+                "Her eyes light up once again as a tiny drop of seed bubbles out of the tip of your cock.  Your last sight before you pass out is her long tongue, slithering out to swab it up before slipping between her smirking lips",
+                "Speaks",
+                "Thanks for the meal",
+                "ChangeFetish", "Oral", "10",
+                "ChangeSensitivity", "Sex", "5"
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+                    {
+                        "lineTrigger": "SetMusicTo",
+                        "move": "",
+                        "theText": [ "music/Forest Dungeon/chain.mp3"]
+                    },
+                    {
+                      "lineTrigger": "StartOfCombat",
+                      "move": "",
+                      "theText": [ "|f|CallCombatEventAndScene|/|SuckubusCombatEvents|/|SuckubusIntro|n|"]
+                    },
+                    {
+                      "lineTrigger": "EndOfRound",
+                      "move": "",
+                      "theText": [ "|f|CallCombatEventAndScene|/|SuckubusCombatEvents|/|EndOfRound|n|"]
+                    },
+                    {
+                        "lineTrigger": "StartOfRound",
+                        "move": "",
+                        "theText": [ "|f|CallCombatEventAndScene|/|SuckubusCombatEvents|/|StartOfRound|n|"]
+                      },
+                    {
+                        "lineTrigger": "AutoCounter",
+                        "move": "Face Fuck",
+                        "theText": [ "|f|CallCombatEventAndScene|/|SuckubusCombatEvents|/|FaceFuckCapture|/|"
+                                    ]
+                    },
+
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": ["Spank", "Whip"],
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Smug|n|'There's no need to get violence!'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Concern|n|'Ow! That really hurts!'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Excited|n|'You want to play rough, huh?'"
+                                    ]
+                    },
+
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": "Demon Layer",
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Panic|n|'H-Hold on a second that's cheating!'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Panic|n|'E-Eh?! You have a holy weapon!?'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'AHH! Th-That's not fair!♥'"
+                    ]
+                    },
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": "Holy Headpat",
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Smug|n|'I'll be a good girl for you...'",
+                                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Usually they wait until they're in my mouth for that.♥'" ]
+                    },
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": ["Bondage Net", "Magical Binding"],
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|SmileLewdInvitation|n|'I usually like to have my hands free to cup your balls...'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Don't worry, I'll be free and have you back in my mouth in no time.♪'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smug|n|'You won't be able to keep yourself out of my mouth once I wriggle free.♪'" ]
+                    },
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": "Pin",
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|SmileLewdInvitation|n|'I can feel your hard cock against me... It's making me thirsty.'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smug|n|'You won't be able to keep yourself out of my mouth once I wriggle free.♪'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Don't worry, I'll be free and have you back in my mouth in no time.♪'"
+                                    ]
+                    },
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": ["Lewd Bottle", "Cloying Mist", "Placebo Pheromone"],
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|ComicPanic|n|'Was that an aphrodisiac? I'm already dripping from your cock in my mouth'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smug|n|'If you touch my pussy, you'd see I don't need that...'",
+                                    "|f|ChangeImageLayer|/|Expression|/|SmileLewdInvitation|n|'I'm already dripping wet just thinking about sucking that cock'"]
+                    },
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": ["Grope Ass", "Squeeze Ass", "Massage Ass", "Fondle Ass", "Breast Caress", "Breast Massage", "Breast Knead", "Breast Fondle"],
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Mnnn, I love feeling your hands on my body.♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Pouty|n|'Hmmm... Squeeze all you want baby, just let me suck that cock...'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'I've got a great ass, some amazing tits, and the best mouth you've ever felt.♥'" ,
+                                    "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Ooh, I'm getting so wet feeling you squeeze me baby.♥'"
+
+                                    ]
+                    },
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": "Pinch Nipples",
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Concern|n|'Ooh, I like a softer touch, babe...'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Concern|n|'Squeeze these titties all you want, but my nipples are so sensitive...'"
+                                    ]
+                    },
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": "Finger",
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Do you feel how wet all that cocksucking got me?♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Mmmmmm.♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Don't worry about that pussy, keep filling my throat baby.♥'"]
+                    },
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": "Dildo",
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|SmileLewdInvitation|n|'Mnnn, I'd prefer the real thing...♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|SmileLewdInvitation|n|'If you saw me sucking it, you'd give me that cock for sure.'"
+                                ]
+                    },
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": ["Kiss", "Make Out", "Deep Kiss", "Lovingly Rough Kiss", "Skillfully Passionate Kiss", "Misty Kiss", "Sensually Seductive Kiss"],
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Wouldn't you rather feel me kissing somewhere else?'",
+                                    "|f|ChangeImageLayer|/|Expression|/|SmileLewdInvitation|n|'My lips would feel better on your cock, don't you think?'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Mmmmmmnnnn...♥'"
+                                    ]
+                    },
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": ["Arouse", "Arousara", "Arousero"],
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Kyaaa!♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Ohhhh!♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smile|n|'I-I'll show {i}you{/i} some magic... let me make that cock disappear.♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'EEK!♥'"
+                                    ]
+                    },
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": "Electrify",
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Concern|n|'Knock it off, asshole! I just want to suck you off!'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Concern|n|'What the fuck?  You electrify me! So uncool!'"
+                                    ]
+                    },
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": ["Seduce", "Enamor", "Smoldering Seduction", "Smoldering Flaunt", "Massaging Seduction", "Mass Seduction"],
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Panic|n|'W-Well... Am Not! Shut up, stupid!♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Panic|n|'Stop it! I just want to blow you, not be your girlfriend!'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Panic|n|'R-Really? You think so?♥ W-Wait! Stop trying to distract me!'"
+                                    ]
+                    },
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": "Ear Tease",
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'A-Ahhh- W-Wait- that's not- Ahnnn!♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'D-Dumb, se-senstive ears- EEK!♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Kyaaaa-♥ Head keeps going blankkkk.♥♥♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'W-Whyyyyy...♥♥♥'"
+                                    ]
+                    },
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": ["Charm", "Charm Wave"],
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|SmileLewdInvitation|n|'I really didn't need to be hornier.♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|SmileLewdInvitation|n|'Ohhhh! I am going to suck your cock {i}so{/i} hard!'"
+                                    ]
+                    },
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": ["Enfeeble", "Sensitize"],
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Panic|n|'Wha- {i}Hey!{/i}'",
+                                    "|f|ChangeImageLayer|/|Expression|/|SmileLewdInvitation|n|'That won't stop me from draining you!'",
+                                    "|f|ChangeImageLayer|/|Expression|/|SmileLewdInvitation|n|'I'll suck you dry for that.'"
+                                ]
+                    },
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": ["Disarming Appeal"],
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Clueless|n|'I guess I could touch up my lipstick...'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Oh? Did I suck you too much already?'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Oh, you want me to go easy for a bit? I guess I can just tease you for now.'"]
+                    },
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": "Sleep",
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Clueless|n|'Ah... Why am I so... Sleepy...'"
+                                    ]
+                    },
+
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": "Anal Penetration",
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Panic|n|'Wh- Hey! That's the wrong hole!'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Panic|n|'That is not my pussy!'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Panic|n|'What kind of hero goes for the back door?!'"
+                                    ]
+                    },
+                    {
+                        "lineTrigger": "HitWithA",
+                        "move": ["Thrust", "Channeling Thrust"],
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Mmmm, you're so big.♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Just relax and let me do all the work.♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smug|n|'I'm really tight, right?♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Feel my pussy sucking you, almost as good as my mouth.♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smug|n|'I'm still a succubus, you know that right?♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smug|n|'I'm going to milk you dry at this rate,♥ kehehe.♥'"
+                                    ]
+                    },
+                    {
+                        "lineTrigger": "HitWithA",
+                        "move": ["Pound", "Multi Thrust", "Empowered Thrust", "Carrying Fuck", "Anal Piston"],
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Ah!♥ W-Wait!♥ I-I didn't {i}actually{/i} mean fuck me harder!♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'S-So gooooodddd!♥♥♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Orgasm|n|'Ahhhhnnn-♥ I-I can't think!♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Dont hold back!♥ Fill me with your cum!♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|Yes! Ravishing me before I suck you dry!♥"
+                                    ]
+                    },
+                    {
+                        "lineTrigger": "HitWithA",
+                        "move": ["Tantric Thrust", "Passionate Lovemaking"],
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Ahhh- Y-You're being {i}too{/i} gentle- c-cut it out!♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'S-Stop teasing me all over- I-It feels way too gooood!♥♥♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Orgasm|n|'D-Don't think th-this is over yet you d-dummy!'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Orgasm|n|'I-I wont lose to your dick, I'll suck you dry!♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'I-If you keep this up im going to put you back in my throat!'"]
+                    },
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": "Penetrate",
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Smug|n|'I'm still a succubus... you know that right?  My [SexWord] isn't any safer...♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Sure, we can switch it up a bit.  I'll suck you clean after my [SexWord] milks you.♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Be sure to watch my sexy [SexWord] bounce while you fuck me.♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Mmmm...♥ I can feel you stretching out my [SexWord].♥'"]
+                    },
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": ["Thrust", "Channeling Thrust"],
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Mmmm, you're so big.♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Just relax and let me do all the work.♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smug|n|'I'm really tight, right?♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Watch my [SexWord] bounce while you fuck me.♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Can't you fuck me any harder?♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smug|n|'I'm going to milk you dry at this rate,♥ kehehe.♥'"]
+                    },
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": ["Pound", "Multi Thrust", "Empowered Thrust", "Carrying Fuck"],
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Ah!♥ W-Wait!♥ I-I didn't {i}actually{/i} mean fuck me harder!♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'S-So gooooodddd!♥♥♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Orgasm|n|'Ahhhhnnn-♥ I-I can't think!♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Dont hold back!♥ Fill me with your cum!♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|Kyaaa!♥ Y-You're ravishing me!♥"]
+                    },
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": ["Tantric Thrust", "Passionate Lovemaking"],
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Ahhh- Y-You're being {i}too{/i} gentle- c-cut it out!♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'S-Stop teasing me all over- I-It feels way too gooood!♥♥♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Orgasm|n|'D-Don't think th-this is over yet you d-dummy!'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Orgasm|n|'I-I wont lose to your dick like this!♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'I-If you keep this up im going to smother you with my boobs!'"]
+                    },
+                    {
+                        "lineTrigger": "HitWith",
+                        "move": "Analyze",
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Just looking to see how hopeless this fight is? You should probably just lay down and let me blow you.'" ]
+                    },
+                    {
+                        "lineTrigger": "Escape",
+                        "move": ["Distract", "Teleport"],
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Panic|n|'How dare you escape me!'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Panic|n|'Wh- Get back here!'"]
+                    },
+                    {
+                        "lineTrigger": "LowHealth",
+                        "move": "",
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|SmileLewdInvitation|n|[AttackerName] begins to hum around your cock, the vibration sending shivers down your spine.  Meanwhile her efforts grow more focused as she prepares for your imminent release.",
+                                    "|f|ChangeImageLayer|/|Expression|/|SmileLewdInvitation|n|'You like what you see, [ThePlayerName]]?' she purrs, her hand slowly milking your cock, her thumb swiping across the tip as she gives it a teasing lick, getting ready for your load"
+                    ]
+                    },
+                    {
+                        "lineTrigger": "OnPlayerOrgasm",
+                        "move": "Blowjob",
+                        "theText": [ "|f|CallCombatEventAndScene|/|SuckubusCombatEvents|/|BlowjobOrgasm|n||c|"
+                                    ]
+                    },
+                    {
+                        "lineTrigger": "OnPlayerOrgasm",
+                        "move": "Making Out",
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|LipLick|n|[AttackerName]'s intense kiss is leaving your body twitching with jolts of pleasure and your mind blanking out from the abnormal feeling of her five long tongues massaging every bit of your mouth at once, her tongues occasionally converging to dominate your tongue back into submission, until you're left breathlessly moaning and your cock wildly spurting from the melty stimulation.",
+                                    "|f|ChangeImageLayer|/|Expression|/|LipLick|n|All of [AttackerName]'s long tongues stay completely focuses on squeezing and massaging your own tongue, leaving you blanking out from the stage pleasure mounting inside of you, and her loving, if predatory seductive gaze leaves your heart racing as she completely dominates your tongue, forcing you to drink down her aphrodisiac saliva until with a final sucking squeeze on your tongue your spasming manhood is left erupting hot seed in long spurts.",
+                                    "|f|ChangeImageLayer|/|Expression|/|LipLick|n|You can feel numbing pleasure filling your head as [AttackerName] kisses you senseless, her long tongues seductively swirling around you mouth, leaving you shivering in bliss, and as one tickles the back of your throat, you cry out in orgasm from the strange aphrodisiac laced ecstasy, your manhood wildly spurting semen as it throbs uncontrollably."
+                                    ]
+                    },
+                    {
+                        "lineTrigger": "OnPlayerOrgasm",
+                        "move": "",
+                        "theText": [ "|f|CallCombatEventAndScene|/|SuckubusCombatEvent|/|BaseOrgasm|n||c|"]
+                                    
+                    },
+                    {
+                        "lineTrigger": "onOrgasm",
+                        "move": "",
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Smile|n|[AttackerName] lets out a breathless scream of ecstasy as she shivers in climax, her pussy squirting lewd juices everywhere.",
+                                    "|f|ChangeImageLayer|/|Expression|/|Smile|n|[AttackerName] lets out a screech of ecstasy her entire body quaking in electrifying bliss, and her pussy squirts lewd juices everywhere."
+                                    ]
+                    },
+                    {
+                        "lineTrigger": "OnSurrender",
+                        "move": "",
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'I call myself [AttackerName] for one reason, and one reason only.  Are you ready to find out why?",
+                                    "|f|ChangeImageLayer|/|Expression|/|SmileLewdInvitation|n|[AttackerName] licks her plush red lips as she sinks to her knees, accepting your surrender.",
+                                    "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'You're in the presence of a true 'Blowjob Queen', [ThePlayerName]].  But don't worry, I'll be the one kneeling"
+                                ]
+                    },
+                    {
+                        "lineTrigger": "StanceStruggle",
+                        "move": "Sex",
+                        "theText": [ "[ThePlayerName] tries to pull out of [AttackerName]'s slick pussy..."]
+                    },
+                    {
+                        "lineTrigger": "StanceStruggleFail",
+                        "move": "Sex",
+                        "theText": [ "|f|CallCombatEventAndScene|/|SuckubusCombatEvents|/|SexAnalStruggleFail|n||c|" ]
+                    },
+                    {
+                        "lineTrigger": "StanceStruggleComment",
+                        "move": "Sex",
+                        "theText": [ 
+                                    "|f|ChangeImageLayer|/|Expression|/|Loving|n||f|ChangeImageLayer|/|FaceEffect|/|Blush|n|'Calm down! I'm not going to eat your soul or anything.'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Dominant|n||f|ChangeImageLayer|/|FaceEffect|/|Blush|n|'You can't resist a suckubus!♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|EvilSmile|n||f|ChangeImageLayer|/|FaceEffect|/|Blush|n|'I'll suck you right back between my lips",
+                                    "|f|ChangeImageLayer|/|Expression|/|Dominant|n||f|ChangeImageLayer|/|FaceEffect|/|Blush|n|'You won't get away from me so easily.'"]
+                    },
+                    {
+                        "lineTrigger": "StanceStruggleFree",
+                        "move": "Sex",
+                        "theText": [ "And manage to pull your cock out of her [SexAdjective] demonic [SexWord]!"]
+                    },
+                    {
+                        "lineTrigger": "StanceStruggleFreeComment",
+                        "move": "Sex",
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|FaceEffect|/|Base|n|'Ghh, I'm still thirsty for cum...'",
+                                  "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|FaceEffect|/|Base|n|'I'd rather get you back in my mouth, anyways.♥",
+                                  "|f|ChangeImageLayer|/|Expression|/|Dominant|n||f|ChangeImageLayer|/|FaceEffect|/|Base|n|'Come on, give in to temptation and let me blow you already.♥'",
+                                  "|f|ChangeImageLayer|/|Expression|/|Dominant|n||f|ChangeImageLayer|/|FaceEffect|/|Base|n|'You can cum inside, but I love the feel of a big load of cum in my mouth.♥'",
+                                  "|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|FaceEffect|/|Base|n|'I was hoping you would give in and let me suck you off...'",
+                                  ""]
+                    },
+                    {
+                        "lineTrigger": "StanceStruggle",
+                        "move": "Anal",
+                        "theText": [ "[ThePlayerName] tries to pull out of [AttackerName]'s [SexAdjective][SexWord]..."]
+                    },
+                    {
+                        "lineTrigger": "StanceStruggleFail",
+                        "move": "Anal",
+                        "theText": [ "|f|CallCombatEventAndScene|/|SuckubusCombatEvents|/|SexAnalStruggleFail|n||c|" ]
+                    },
+                    {
+                        "lineTrigger": "StanceStruggleComment",
+                        "move": "Anal",
+                        "theText": [ 
+                                "|f|ChangeImageLayer|/|Expression|/|Loving|n||f|ChangeImageLayer|/|FaceEffect|/|Blush|n|'Calm down! I'm not going to eat your soul or anything.'",
+                                "|f|ChangeImageLayer|/|Expression|/|Dominant|n||f|ChangeImageLayer|/|FaceEffect|/|Blush|n|'You can't resist a suckubus!♥'",
+                                "|f|ChangeImageLayer|/|Expression|/|EvilSmile|n||f|ChangeImageLayer|/|FaceEffect|/|Blush|n|'I'll suck you right back between my lips",
+                                "|f|ChangeImageLayer|/|Expression|/|Dominant|n||f|ChangeImageLayer|/|FaceEffect|/|Blush|n|'You won't get away from me so easily.'"
+                        ]
+                    },
+                    {
+                        "lineTrigger": "StanceStruggleFree",
+                        "move": "Anal",
+                        "theText": [ "And manage to pull your cock out of her tight rear!"]
+                    },
+                    {
+                        "lineTrigger": "StanceStruggleFreeComment",
+                        "move": "Anal",
+                        "theText": [ 
+                                    "|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|FaceEffect|/|Base|n|'Ghh, I'm still thirsty for cum...'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|FaceEffect|/|Base|n|'I'd rather get you back in my mouth, anyways.♥",
+                                    "|f|ChangeImageLayer|/|Expression|/|Dominant|n||f|ChangeImageLayer|/|FaceEffect|/|Base|n|'Come on, give in to temptation and let me blow you already.♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Dominant|n||f|ChangeImageLayer|/|FaceEffect|/|Base|n|'You can cum inside, but I love the feel of a big load of cum in my mouth.♥'",
+                                    "|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|FaceEffect|/|Base|n|'I was hoping you would give in and let me suck you off...'"
+                        ]
+                    },
+                    {
+                        "lineTrigger": "StanceStruggle",
+                        "move": "Blowjob",
+                        "theText": [ "You try to pull yourself free from [AttackerName]'s talented cocksucking..." ]
+                    },
+                    {
+                        "lineTrigger": "StanceStruggleFail",
+                        "move": "Blowjob",
+                        "theText": [ "But as you pull her off the length of your cock, she sucks and licks the tip of your manhood with a hungry fervor. Groaning, you can't finish pulling away as you put your cock back into her mouth!",
+                                    "|f|ChangeImageLayer|/|Expression|/|SeductiveGlow|n||f|ChangeImageLayer|/|FaceEffect|/|Glow|n|But as you grab her head to push her away, she lovingly nuzzles into your shaft and looks up at you with pleading eyes, and your heart throbs as her eyes flash pink, and you decide a little longer can't hurt...",
+                                    "|f|ChangeImageLayer|/|Expression|/|SeductiveGlow|n||f|ChangeImageLayer|/|FaceEffect|/|Glow|n|But she deftly moves in and starts to lick and suck on your balls, and as she looks up at you her eyes briefly flash pink, and you find yourself stroking her hair instead of pushing her away!"]
+                    },
+                    {
+                        "lineTrigger": "StanceStruggleComment",
+                        "move": "Blowjob",
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Lustful|n||f|ChangeImageLayer|/|FaceEffect|/|Blush|n|'Mmmm♥, I'm sooo hungry...'",
+                                    "|f|ChangeImageLayer|/|Expression|/|LovingSmile|n||f|ChangeImageLayer|/|FaceEffect|/|Blush|n|'I {i}need{/i} a big thick load of your cum, so don't push me away, please.♥",
+                                    "|f|ChangeImageLayer|/|Expression|/|Lustful|n||f|ChangeImageLayer|/|FaceEffect|/|Blush|n|'I don't bite.♥ But I {i}will{/i} suck you dry.♥",
+                                    "|f|ChangeImageLayer|/|Expression|/|Dominant|n||f|ChangeImageLayer|/|FaceEffect|/|Blush|n|'I'm not letting you go until I'm full!♥"]
+                    },
+                    {
+                        "lineTrigger": "StanceStruggleFree",
+                        "move": "Blowjob",
+                        "theText": [ "|f|CallCombatEventAndScene|/|SuckubusCombatEvents|/|BlowjobStruggle|n||c|" ]
+                    },
+                    {
+                        "lineTrigger": "StanceStruggleFreeComment",
+                        "move": "Blowjob",
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|FaceEffect|/|Blush|n|'Ghh, I'm still hungry...'",
+                                  "|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|FaceEffect|/|Blush|n|'Is my blowjob not good enough for you?'",
+                                  "|f|ChangeImageLayer|/|Expression|/|Disgust|n||f|ChangeImageLayer|/|FaceEffect|/|Blush|n|'Hey, I wasn't finished with you yet!'",
+                                  "|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|FaceEffect|/|Blush|n|'I just want all of your cum. Is that so wrong?'",
+                                  ""]
+                    },
+                    {
+                        "lineTrigger": "StanceStruggle",
+                        "move": "Making Out",
+                        "theText": [ "[ThePlayerName] tries to break the sensual kiss with [AttackerName]..."]
+                    },
+                    {
+                        "lineTrigger": "StanceStruggleFail",
+                        "move": "Making Out",
+                        "theText": [ "But she keeps a tight hold on [ThePlayerName], and he stays locked in a deep, loving kiss!",
+                                    "But as you start to push her away, she wraps an arm around the back of your head, deepening the kiss while she gazes lustfully into your eyes."]
+                    },
+                    {
+                        "lineTrigger": "StanceStruggleComment",
+                        "move": "Making Out",
+                        "theText": [ "",
+                                    "|f|ChangeImageLayer|/|Expression|/|Lustful|n||f|ChangeImageLayer|/|FaceEffect|/|Blush|n|'Mn, ah, I should... R-Really...' She quietly drifts off and continues to kiss you.",
+                                    "|f|ChangeImageLayer|/|Expression|/|Lustful|n||f|ChangeImageLayer|/|FaceEffect|/|Blush|n|'M-My heart won't calm down...'",
+                                    "|f|ChangeImageLayer|/|Expression|/|LovingSmile|n||f|ChangeImageLayer|/|FaceEffect|/|Blush|n|'C-Can we hold hands?'"]
+                    },
+                    {
+                        "lineTrigger": "StanceStruggleFree",
+                        "move": "Making Out",
+                        "theText": [ "And manage to push [AttackerName] away and break the kiss!",
+                                  "And free your mouth from [AttackerName]'s soft lips!"]
+                    },
+                    {
+                        "lineTrigger": "StanceStruggleFreeComment",
+                        "move": "Making Out",
+                        "theText": [ "|f|ChangeImageLayer|/|Expression|/|Shy|n||f|ChangeImageLayer|/|FaceEffect|/|Blush|n|'A-Ah! R-Right- I should give you a blowjob!'",
+                                  "|f|ChangeImageLayer|/|Expression|/|LovingSmile|n||f|ChangeImageLayer|/|FaceEffect|/|Blush|n|She nervously bites her lip.",
+                                  "|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|FaceEffect|/|Blush|n|'O-Oh, right... Y-you're resisting me...' She looks a little crestfallen."]
+                    }
+                    ],
+    "victoryScenes": [
+    {
+        "NameOfScene": "",
+        "move": "",
+        "stance": "",
+        "includes": [""],
+        "theScene":[""],
+        "picture": ""
+    }
+    ],
+    "pictures": [
+    {
+        "Name": "DemonicTail",
+        "StartOn": "1",
+        "AlwaysOn": "1",
+        "IsScene": "0",
+        "TheBody": "0",
+        "Overlay": "DemonForm",
+        "setXalign": "0.0",
+        "setYalign": "0.0",
+        "Images": [
+            {
+                "Name": "DemonOn",
+                "File": "../images/Monsters/Jennifer/DemonParts_Jennifer_Tail.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            }
+        ]
+    },
+    {
+        "Name": "Wings",
+        "StartOn": "0",
+        "AlwaysOn": "0",
+        "IsScene": "0",
+        "TheBody": "0",
+        "Overlay": "No",
+        "setXalign": "0.0",
+        "setYalign": "0.0",
+        "Images": [
+            {
+                "Name": "WingsOn",
+                "File": "../images/Monsters/Jennifer/DemonParts_Jennifer_Wings.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            }
+        ]
+    },
+    {
+        "Name": "Base",
+        "StartOn": "1",
+        "AlwaysOn": "1",
+        "IsScene": "0",
+        "TheBody": "1",
+        "Overlay": "No",
+        "setXalign": "0.0",
+        "setYalign": "0.25",
+        "Images": [
+            {
+                "Name": "Dancer",
+                "File": "../images/Monsters/Jennifer/Body_Jennifer_Dancer.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            },
+            {
+                "Name": "Nude",
+                "File": "../images/Monsters/Jennifer/Body_Jennifer_Nude.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            }
+        ]
+    },
+    {
+        "Name": "DemonForm",
+        "StartOn": "1",
+        "AlwaysOn": "0",
+        "IsScene": "0",
+        "TheBody": "0",
+        "Overlay": "No",
+        "setXalign": "0.0",
+        "setYalign": "0.0",
+        "Images": [
+            {
+                "Name": "DemonOn",
+                "File": "../images/Monsters/Jennifer/DemonParts_Jennifer_Horns.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            }
+        ]
+    },
+    {
+        "Name": "Face",
+        "StartOn": "0",
+        "AlwaysOn": "0",
+        "IsScene": "0",
+        "TheBody": "0",
+        "Overlay": "No",
+        "setXalign": "0.0",
+        "setYalign": "0.0",
+        "Images": [
+            {
+                "Name": "Blush",
+                "File": "../images/Monsters/Jennifer/Face_Jennifer_Blush.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            }
+        ]
+    },
+    {
+        "Name": "Expression",
+        "StartOn": "1",
+        "AlwaysOn": "1",
+        "IsScene": "0",
+        "TheBody": "0",
+        "Overlay": "No",
+        "setXalign": "0.0",
+        "setYalign": "0.0",
+        "Images": [
+            {
+                "Name": "Smile",
+                "File": "../images/Monsters/Jennifer/Expressions_Jennifer_Smile.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            },
+            {
+                "Name": "Clueless",
+                "File": "../images/Monsters/Jennifer/Expressions_Jennifer_Clueless.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            },
+            {
+                "Name": "ComicPanic",
+                "File": "../images/Monsters/Jennifer/Expressions_Jennifer_ComicPanic.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            },
+            {
+                "Name": "Concern",
+                "File": "../images/Monsters/Jennifer/Expressions_Jennifer_Concern.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            },
+            {
+                "Name": "Excited",
+                "File": "../images/Monsters/Jennifer/Expressions_Jennifer_Excited.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            },
+            {
+                "Name": "Lewd",
+                "File": "../images/Monsters/Jennifer/Expressions_Jennifer_Lewd.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            },
+            {
+                "Name": "LewdInvitation",
+                "File": "../images/Monsters/Jennifer/Expressions_Jennifer_LewdInvitation.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            },
+            {
+                "Name": "LipLick",
+                "File": "../images/Monsters/Jennifer/Expressions_Jennifer_LipLick.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            },
+            {
+                "Name": "Orgasm",
+                "File": "../images/Monsters/Jennifer/Expressions_Jennifer_Orgasm.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            },
+            {
+                "Name": "Panic",
+                "File": "../images/Monsters/Jennifer/Expressions_Jennifer_Panic.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            },
+            {
+                "Name": "Pleasured",
+                "File": "../images/Monsters/Jennifer/Expressions_Jennifer_Pleasured.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            },
+            {
+                "Name": "PleasuredIntense",
+                "File": "../images/Monsters/Jennifer/Expressions_Jennifer_PleasuredIntense.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            },
+            {
+                "Name": "Pouty",
+                "File": "../images/Monsters/Jennifer/Expressions_Jennifer_Pouty.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            },
+            {
+                "Name": "SmugExtraSmug",
+                "File": "../images/Monsters/Jennifer/Expressions_Jennifer_Seductive.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            },
+
+            {
+                "Name": "SmileDreamy",
+                "File": "../images/Monsters/Jennifer/Expressions_Jennifer_SmileDreamy.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            },
+            {
+                "Name": "SmileLewdInvitation",
+                "File": "../images/Monsters/Jennifer/Expressions_Jennifer_SmileOpenMouth.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            },
+            {
+                "Name": "Smug",
+                "File": "../images/Monsters/Jennifer/Expressions_Jennifer_Smug.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            }
+        ]
+    },
+    {
+        "Name": "Tattoo",
+        "StartOn": "1",
+        "AlwaysOn": "0",
+        "IsScene": "0",
+        "TheBody": "0",
+        "Overlay": "Base",
+        "setXalign": "0.0",
+        "setYalign": "0.0",
+        "Images": [
+            {
+                "Name": "Clothed",
+                "File": "../images/Monsters/Jennifer/Tattoo_Jennifer_Casual.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            },
+            {
+                "Name": "Dancer",
+                "File": "../images/Monsters/Jennifer/Tattoo_Jennifer_Dancer.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            },
+            {
+                "Name": "Nude",
+                "File": "../images/Monsters/Jennifer/Tattoo_Jennifer_Nude.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            }
+        ]
+    }
+]
+}

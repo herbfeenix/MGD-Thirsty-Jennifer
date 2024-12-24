@@ -1,0 +1,1301 @@
+{
+    "name": "SuckubusCombatEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Suckubus",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "SuckubusIntro",
+            "theScene": [
+                "The voluptuous Suckubus saunters out of the darkness with a mischievous smirk on her painted lips!",
+                "ChangeImageLayer",
+                "Base",
+                "Dancer",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Come here and give me your big, creamy load.  I'll swallow every last drop you have.",
+                "♥Hey there stud, you know you want me to slurp and suck that cock until you pass out.♥",
+                "You know, I'm going to drain those balls completely dry, and you'll love every minute of it.♥",
+                "I want you to watch me as I take you in my mouth, suck you stupid, and swallow every fucking drop of your cum.♥",
+                "I want to feel every inch of you in my mouth. I want to taste every drop of your cum. And you want to give it to me",
+                "EndLoop",
+                "SetProgress",
+                "0"
+            ]
+        },
+        {
+            "NameOfScene": "StartOfRound",
+            "theScene": [
+                "IfMonsterHasStance",
+                "Face Sit",
+                "SoRFaceSit"
+            ]
+        },
+        {
+            "NameOfScene": "SoRFaceSit",
+            "theScene": [
+                "RemoveSkillFromMonster",
+                "Struggle",
+                "RemoveSkillFromMonster",
+                "Push Away"
+            ]
+        },
+        {
+            "NameOfScene": "EndOfRound",
+            "theScene": [
+                "JumpToScene",
+                "CheckOralTemptation"
+            ]
+        },
+        {
+            "NameOfScene": "CheckOralTemptation",
+            "theScene": [
+                "IfFetishLevelEqualOrGreater",
+                "Oral",
+                "50",
+                "SuckubusTemptation",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "SuckubusTemptation",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "SuckubusTemptation",
+            "theScene": [
+                "SetPostName",
+                "- Suckubus Temptation",
+                "IfMonsterHasStance",
+                "Face Sit",
+                "SixtyNineTemptation",
+                "IfMonsterHasStance",
+                "Blowjob",
+                "RollForBJTemptation",
+                "ChangeImageLayer",
+                "Expression",
+                "LewdInvitation",
+                "HitPlayerWith",
+                "Suckubus Temptation",
+                "SwapLineIf",
+                "Random",
+                "[AttackerName]' tongue makes a languid circle around her painted lips, leaving them glistening with her slick saliva. 'I could really go for a nice, thick load of cum right about now...' Her display sends fantasies flooding through your oral obsessed brain.",
+                "[AttackerName] slips a finger between her plush lips, giving the digit a few languid sucks that hollow her cheeks.  You're wonder how that suction would feel on your cock when she interrupts.  'I've got a bit of an oral fixation.  Have you got something for me to {i}suck on?{/i}",
+                "With a flutter of her eyelashes, [AttackerName] leans closer and gives you a glimpse into her deep cleavage.  When her tongue snakes out to lick her upper lip, you feel your cock stiffen a little more. 'I'll ruin you for other girls, nobody sucks cock like [AttackerName]",
+                "EndLoop",
+                "JumpToScene",
+                "SuckubusBlueBallStepCheck"
+            ]
+        },
+        {
+            "NameOfScene": "SixtyNineTemptation",
+            "theScene": [
+                "SetPostName",
+                " - Suckubus Sixty-Nine Temptation",
+                "IfMonsterHasStance",
+                "Blowjob",
+                "RollForBJTemptation",
+                "HitPlayerWith",
+                "Suckubus Temptation",
+                "SwapLineIf",
+                "Random",
+                " 'Isn't my ass just {i}amazing{/i}, [TargetName]?  Watch that beautiful booty sway while I suck you dry.'  She slides her slick pussy closer to your face as she bends lower, bringing her lips close enough to feel her wet breath on your cock.",
+                "[AttackerName] slips a finger between her plush lips, giving the digit a wet, slurping suck that resonates in your ears.  She presses her dripping pussy down onto your tongue, and you wonder how soon you'll feel her suction gripping your cock.",
+                "With a wiggle of her hips over your face, [AttackerName] leans over your cock and gives your tip a teasing lick, causing your cock stiffen a little more.  'Ready for me to blow your mind, [TargetName]?",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "RollForBJTemptation",
+            "theScene": [
+                "JumpToRandomScene",
+                "SexyButt Hypnotic Suck",
+                "SexyButt Hypnotic Suck",
+                "BlowjobTemptationActivate",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "BlowjobTemptationActivate",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "NothingHappens",
+                "IfMonsterHasStatusEffect",
+                "Sleep",
+                "NothingHappens",
+                "IfMonsterHasStatusEffect",
+                "Stun",
+                "NothingHappens",
+                "SetPostName",
+                " - Blowjob Temptation",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "GaveInToBJ",
+                "IfHasFetish",
+                "Oral",
+                "Auto fail BJ temptation.",
+                "ChangeImageLayer",
+                "Expression",
+                "SmugExtraSmug",
+                "As the succubus strokes and slurps with expert skill over your aching cock, you're tempted to just relax and let her drain your aching balls...",
+                "SetPostName",
+                "",
+                "Menu",
+                "Let her go at it, just a bit more...",
+                "Focus on the fight!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Focus on the fight!",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Concern",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "ResistCharm",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Trance",
+                "4",
+                "ResistHypno",
+                "You shake your head to clear the lewd fantasies from your mind and focus on trying to win!"
+            ]
+        },
+        {
+            "NameOfScene": "ResistCharm",
+            "theScene": [
+                "With the charm effecting you, it's so hard to focus on fighting back...",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Oral",
+                "50",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Oral",
+                "75",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Oral",
+                "100",
+                "5",
+                "Temptation",
+                "10",
+                "PassCharmBJCheck",
+                "Fail",
+                "FailBJCharmResist"
+            ]
+        },
+        {
+            "NameOfScene": "ResistHypno",
+            "theScene": [
+                "With the trance effecting you, it's so hard not to surrender...",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Oral",
+                "50",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Oral",
+                "75",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Oral",
+                "100",
+                "5",
+                "Temptation",
+                "10",
+                "PassCharmBJCheck",
+                "Fail",
+                "FailBJCharmResist"
+            ]
+        },
+        {
+            "NameOfScene": "PassCharmBJCheck",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Concern",
+                "But you manage to resist the the tempation to give in to her incredible oral pleasure!"
+            ]
+        },
+        {
+            "NameOfScene": "FailBJCharmResist",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "You groan and lean back, your will sapped by her wet suction and nimble flicks of her slippery tongue.",
+                "ApplyStatusEffect",
+                "Tempted by Blowjobs",
+                "JumpToRandomScene",
+                "TemptedDeepthroat",
+                "TemptedLicking",
+                "HeadBob",
+                "SloppyBJ",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Auto fail BJ temptation.",
+            "theScene": [
+                "FocusedSpeaks",
+                "You groan in bliss as the succubus' plump lips work their way down your shaft, and her hands masssage your heavy, aching balls...",
+                "SetPostName",
+                "",
+                "With your love of oral, you can only let out a moan and run your hands through her hair, relaxing into the pleasure of her masterful blowjob",
+                "ApplyStatusEffect",
+                "Tempted by Blowjobs",
+                "JumpToRandomScene",
+                "TemptedDeepthroat",
+                "TemptedLicking",
+                "HeadBob",
+                "SloppyBJ",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "GaveInToBJ",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "FocusedSpeaks",
+                "Having surrendered to [AttackerName]' oral assault, you groan and continue to enjoy her expert fellatio...",
+                "ApplyStatusEffect",
+                "Tempted by Blowjobs",
+                "SetPostName",
+                "",
+                "JumpToRandomScene",
+                "TemptedDeepthroat",
+                "TemptedLicking",
+                "HeadBob",
+                "SloppyBJ",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Let her go at it, just a bit more...",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LewdInvitation",
+                "[AttackerName] pulls off your throbbing shaft with a little 'pop', grinning at your eagerness while she decides which technique to use to drain your balls...",
+                "ApplyStatusEffect",
+                "Tempted by Blowjobs",
+                "JumpToRandomScene",
+                "TemptedDeepthroat",
+                "TemptedLicking",
+                "HeadBob",
+                "SloppyBJ",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "TemptedDeepthroat",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "SmileLewdInvitation",
+                "Speaks",
+                "'How about a little deep throating?  Don't you want to feel these fat lips around the base of your cock?  I bet you do...' ",
+                "HitPlayerWith",
+                "Deep Throat",
+                "She slowly sucks you in until her juicy lips wrap around your base, her tongue slipping down to slither around your balls.",
+                "HitPlayerWith",
+                "Deep Throat",
+                "She looks into your eyes with your entire cock in her mouth, her throat coaxing your load with strong swallowing motions.",
+                "HitPlayerWith",
+                "Deep Throat",
+                "As she pulls back, her cheeks hollow and she grips you with an intense suction, drawing a gasp from the intense pleasure.",
+                "HitPlayerWith",
+                "Deep Throat",
+                "IfPlayerOrgasm",
+                "SuckubusDeepThroatOrgasm",
+                "JumpToScene",
+                "RandomBjTease"
+            ]
+        },
+        {
+            "NameOfScene": "SuckubusDeepThroatOrgasm",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LewdInvitation",
+                "You grip her hair as you feel orgasm approaching, and she slams her mouth down, gripping your shaft with her lips while massaging your balls with expert precision.",
+                "PlayerOrgasm",
+                "1",
+                "EnergyDrain",
+                "75",
+                "You pump your seed deep down her throat as she works you with a vaccuum-like suction, her lips tongue and throat working to pump you dry.   You lost [FinalDamage] energy.",
+                "ChangeImageLayer",
+                "Expression",
+                "SmugExtraSmug",
+                "SemenHeal",
+                "75",
+                "[AttackerName] pulls away from your twitching shaft with a michievous grin, tongue slipping out to catch a stray drop of semen from her lips. You feel drained of cum and energy, while her arousal seems to have gone down! [AttackerName] calms down [FinalDamage] arousal.",
+                "JumpToScene",
+                "RandomBjOrgasmTease"
+            ]
+        },
+        {
+            "NameOfScene": "TemptedLicking",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LewdInvitation",
+                "Speaks",
+                "'Would you like to see what my tongue can do?  It's so much longer, and stronger than the other girls.  Here, have a look...' ",
+                "HitPlayerWith",
+                "Glans Blowjob",
+                "She slowly extends her inhumanly long tongue, coiling around your shaft and wrapping it in hot wetness.",
+                "HitPlayerWith",
+                "Glans Blowjob",
+                "With your member completely encased, her tongue begins to pump and twist, stroking you like a hot, wet fist while her glistening lips part expectantly.",
+                "HitPlayerWith",
+                "Glans Blowjob",
+                "Waves of pleasure radiate through your groin with each slippery stroke, her slick tonguejob drawing you closer to orgasm with every pump.",
+                "HitPlayerWith",
+                "Glans Blowjob",
+                "IfPlayerOrgasm",
+                "SuckubusLickingOrgasm",
+                "JumpToScene",
+                "RandomBjTease"
+            ]
+        },
+        {
+            "NameOfScene": "SuckubusLickingOrgasm",
+            "theScene": [
+                "Your throbbing manhood twitches in her coiled tongue as your cockhead, preparing to feed the hungry [AttackerName] a big, creamy load of sperm.",
+                "Recognition flashes in her eyes, and she quickly brings her suctioning lips around your cockhead, firmly sealing them to the tip while her tongue rapidly strokes you, quickly dragging you over the edge of orgasm.",
+                "PlayerOrgasm",
+                "1",
+                "EnergyDrain",
+                "50",
+                "You start pumping thick ropes of seed into [AttackerName]'s draining mouth, and she hungrily sucks at your tip, her tongue still jerking your shaft through your orgasm, making your body quake in ecstasy. You lost [FinalDamage] energy.",
+                "ChangeImageLayer",
+                "Expression",
+                "SmugExtraSmug",
+                "SemenHeal",
+                "75",
+                "Mercifully, her tongue uncoils from your sensitive cock, her lips turning up into a smile as she slurps down your semen. You feel drained from your orgasm, but she looks eager to keep going. [AttackerName] calms down [FinalDamage] arousal.",
+                "JumpToScene",
+                "RandomBjOrgasmTease"
+            ]
+        },
+        {
+            "NameOfScene": "HeadBob",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "SmugExtraSmug",
+                "Speaks",
+                "'My head bobbing technique will leave you in a daze of pleasure.  Just relax and let me do all the work, baby...'",
+                "HitPlayerWith",
+                "Blowjob",
+                "She expertly bobs her lips over your shaft, her nimble tongue flicking over every senstive bit of your shaft.",
+                "HitPlayerWith",
+                "Blowjob",
+                "She sucks and licks your shaft voraciously, making lewd slurping sounds as she devours your cock with unmatched skill.",
+                "ChangeImageLayer",
+                "Expression",
+                "LewdInvitation",
+                "HitPlayerWith",
+                "Blowjob",
+                "Her eyes flick up to your pleasure drunk expression, and she grins around your shaft before diving back down to suck you off even more vigorously.",
+                "HitPlayerWith",
+                "Vacuum Blowjob",
+                "IfPlayerOrgasm",
+                "HeadBobOrgasm",
+                "JumpToScene",
+                "RandomBjTease"
+            ]
+        },
+        {
+            "NameOfScene": "HeadBobOrgasm",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LewdInvitation",
+                "[AttackerName] notices your cock begining to swell, throbbing in preparation for your orgasm.  Her plush lips work lower over your shaft, drawing a groan from you.",
+                "ChangeImageLayer",
+                "Expression",
+                "SmileLewdInvitation",
+                "Her mouth is like a vacuum, her powerful suction and rapid movements working to quickly overcome your resistance with an onslaught of pleasure",
+                "PlayerOrgasm",
+                "1",
+                "EnergyDrain",
+                "75",
+                "You surrender to her continual, suctioning pleasure, pumping your seed into her hungry, draining mouth! You lost [FinalDamage] energy.",
+                "SemenHeal",
+                "75",
+                "ChangeImageLayer",
+                "Expression",
+                "SmugExtraSmug",
+                "She noisily slurps down each and every load you pump into her before pulling away with a giggle, tongue snaking out to gather a few stray droplets of seed.  You feel rather drained, but [AttackerName] seductively licks her lips as if wanting more... [AttackerName] calms down [FinalDamage] arousal.",
+                "JumpToScene",
+                "RandomBjOrgasmTease"
+            ]
+        },
+        {
+            "NameOfScene": "SloppyBJ",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "SmugExtraSmug",
+                "HitPlayerWith",
+                "Blowjob",
+                "'Are you ready for my sloppy blowjob?  Nobody's ever ready for my sloppy blowjob, wanna know why?'",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "'It's not quite my Soul Snatcher, that's a special experience' She plants sloppy wet kisses all over your shaft, tongue wrapping around to slather your shaft with with wet spit, before slithering down to do the same to your balls .",
+                "HitPlayerWith",
+                "Blowjob",
+                "Her hands join in, one massaging her saliva into your heavy balls, while the other twists and strokes over your length, masterfully milking your aching cock while continuing to kiss and nibble all over.",
+                "Speaks",
+                "But my sloppy blow has a lot of the same techniques.  That should be wet enough, now to get serious.  You won't last long, but try your best to enjoy it for as long as possible, okay?",
+                "HitPlayerWith",
+                "Blowjob",
+                "Her gentle yet constant oral pleasure is replaced with a whirling vortex of pleasure as she pulls your cock between her lips and begins to suck you like a vacuum, her wet lips slurping in time with the molten hot suction.",
+                "HitPlayerWith",
+                "Blowjob",
+                "Your knees tremble from the sudden increase in sensation, her lewd suctioning sending vibrations from your cockhead all the way down your shaft and through your body, leaving you trembling from her powerful techniques.",
+                "HitPlayerWith",
+                "Vacuum Blowjob",
+                "You don't know how much more you can take! Your cock and balls are soaked in her spit, her tongue whirls around your tip while her lips bob up and down, twisting and slurping loudly with every stroke, devouring the drops of pre that flow from your shaft.",
+                "HitPlayerWith",
+                "Vacuum Blowjob",
+                "Her hands work tirelessly over the bottom half of your shaft, wrist flicking and fist twisting to bring you to new heights of pleasure.  Meanwhile, her hands relentlessly milk your heavy nuts, urging them to give up their heavy load.",
+                "HitPlayerWith",
+                "Suckubus Temptation",
+                "IfPlayerOrgasm",
+                "SloppyBJOrgasm",
+                "Speaks",
+                "You held out through all that?  I'm impressed, but you can't hold out forever...",
+                "JumpToScene",
+                "RandomBjTease"
+            ]
+        },
+        {
+            "NameOfScene": "SloppyBJOrgasm",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LewdInvitation",
+                "You moan as [AttackerName]'s hand wrings your shaft, using her spit to lubricate the strokes. She sucks faster, licking and slurping over your tip as the stimulation quickly becomes too much for your overstimulated manhood.",
+                "ChangeImageLayer",
+                "Expression",
+                "SmugExtraSmug",
+                "As you reach down to grasp her hair, cock trembling in pre-orgasmic bliss, [AttackerName] continues devouring your cock with practiced precision, leaving no part of your shaft unstimulated.",
+                "She was right, how could anyone possibly endure this much pleasure?  Her plush lips and slick hands draw you over the edge as you thrust into her mouth, filling it with the thick load she worked so hard for.",
+                "PlayerOrgasm",
+                "1",
+                "EnergyDrain",
+                "75",
+                "You erupt, launching thick jets of sperm into her waiting mouth and down her throat, as she loudly gulps down each shot before sucking the next one out of you. You lost [FinalDamage] energy.",
+                "SemenHeal",
+                "75",
+                "PlayerOrgasm",
+                "1",
+                "EnergyDrain",
+                "75",
+                "But your orgasm seems to drag on and she doesn't stop her wet stroking and sucking, her lips, tongue, and hands working to draw ever more seed from your balls. You lost [FinalDamage] energy.",
+                "SemenHeal",
+                "75",
+                "Eventually the flow of semen slows, as does her milking action, until she finally pulls off your cock with a cheeky smile, wiping some stray saliva with the back of her hand.  You're left panting and feeling completely drained, while your Suckubus looks at you, ready for more.  [AttackerName] calms down [FinalDamage] arousal.",
+                "JumpToScene",
+                "RandomBjOrgasmTease"
+            ]
+        },
+        {
+            "NameOfScene": "RandomBjTease",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "SmileLewdInvitation",
+                "JumpToRandomScene",
+                "SuckubusBestBJTease",
+                "RelaxTease",
+                "SuckleTease",
+                "KissTease",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "SuckubusBestBJTease",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "SmugExtraSmug",
+                "[AttackerName] smiles up at you sweetly, but with a hunger in her eyes.",
+                "FocusedSpeaks",
+                "'Don't I give the best blowjobs?  All you need to do is relax, and let me milk a big, juicy load of you.♥'",
+                "JumpToScene",
+                "TemptationBJChoice"
+            ]
+        },
+        {
+            "NameOfScene": "RelaxTease",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "[AttackerName] gently massages your balls between her fingers while your cock rests against her grinning face.",
+                "FocusedSpeaks",
+                "'I can feel how full you are, so just relax, and let me suck these heavy balls dry.♥'",
+                "JumpToScene",
+                "TemptationBJChoice"
+            ]
+        },
+        {
+            "NameOfScene": "SuckleTease",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "SmileDreamy",
+                "[AttackerName] gently suckles just the tip of your manhood",
+                "FocusedSpeaks",
+                "'Are you ready for more than a little tease?' she asks, giving your tip a tantalizing suck.",
+                "JumpToScene",
+                "TemptationBJChoice"
+            ]
+        },
+        {
+            "NameOfScene": "KissTease",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Pouty",
+                "[AttackerName] plants wet kisses all the way down your shaft, nuzzling your balls with her nose and giving each a light kiss.",
+                "JumpToScene",
+                "TemptationBJChoice"
+            ]
+        },
+        {
+            "NameOfScene": "RandomBjOrgasmTease",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "SmileDreamy",
+                "JumpToRandomScene",
+                "MoreOrgTease",
+                "MoreRightTease",
+                "LettingMeTease",
+                "StillHungryTease",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "MoreOrgTease",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "[AttackerName] sighs and gives her lips a slutty lick.",
+                "FocusedSpeaks",
+                "'Yummmm...♥ That was a really big load, but I bet you've got at least one more in those heavy balls of yours...♥'",
+                "JumpToScene",
+                "TemptationBJChoice"
+            ]
+        },
+        {
+            "NameOfScene": "MoreRightTease",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "SmileDreamy",
+                "[AttackerName] smiles seductively while rubbing your spit-slick manhood across her cheek.",
+                "FocusedSpeaks",
+                "I know so many ways to suck your cock, soo many techniques to tease and pleasure your cock... you know you want to feel them all...",
+                "JumpToScene",
+                "TemptationBJChoice"
+            ]
+        },
+        {
+            "NameOfScene": "LettingMeTease",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "[AttackerName] grins wickedly while idly strokes your still twitching shaft.",
+                "FocusedSpeaks",
+                "'Mmmm...♥ A suckubus like me is never satisfied, at least not until I've drained you dry.♥'",
+                "'Fuck, I could just lay here all day sucking you...  Not that you mind.♥'",
+                "JumpToScene",
+                "TemptationBJChoice"
+            ]
+        },
+        {
+            "NameOfScene": "StillHungryTease",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "[AttackerName]' eyes light up when a stray droplet of seed wells up at your tip, her lips quickly diving down to slurp it up with a sigh.",
+                "FocusedSpeaks",
+                "'Thanks for the dessert, but I'm still hungry... so lay back and let me suck all that yummy juice right out of you...♥'",
+                "JumpToScene",
+                "TemptationBJChoice"
+            ]
+        },
+        {
+            "NameOfScene": "TemptationBJChoice",
+            "theScene": [
+                "IfPlayerSpiritGone",
+                "LosesFightBJ",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "GaveInToBJ2",
+                "ChangeImageLayer",
+                "Expression",
+                "SmugExtraSmug",
+                "Menu",
+                "Let her go at it, just a bit more...",
+                "Start fighting back!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Start fighting back!",
+            "theScene": [
+                "IfFetishLevelEqualOrGreater",
+                "Oral",
+                "40",
+                "Fetish BJ temptation check.",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "ResistCharmedBJ",
+                "ChangeImageLayer",
+                "Expression",
+                "Lewd",
+                "You shake your head, trying to clear away the image of her perfect, cocksucking lips from your mind!"
+            ]
+        },
+        {
+            "NameOfScene": "ResistCharmedBJ",
+            "theScene": [
+                "With her charm affecting you, it's so hard not to just lay back and let her suck you into a stupor.",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Oral",
+                "50",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Oral",
+                "75",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Oral",
+                "100",
+                "5",
+                "Temptation",
+                "10",
+                "PassCharmBJCheck",
+                "Fail",
+                "FailBJCharmResist"
+            ]
+        },
+        {
+            "NameOfScene": "Fetish BJ temptation check.",
+            "theScene": [
+                "Your love of blowjobs makes it difficult to resist her oral attention...",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Oral",
+                "50",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Oral",
+                "75",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Oral",
+                "100",
+                "5",
+                "Temptation",
+                "10",
+                "PassCharmBJCheck",
+                "Fail",
+                "FailBJCharmResist"
+            ]
+        },
+        {
+            "NameOfScene": "GaveInToBJ2",
+            "theScene": [
+                "JumpToRandomScene",
+                "TemptedDeepthroat",
+                "TemptedLicking",
+                "HeadBob",
+                "SloppyBJ",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "NothingHappens",
+            "theScene": []
+        },
+        {
+            "NameOfScene": "BlowjobOrgasm",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LewdInvitation",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "CharmedBlowjobOrgasm",
+                "IfPlayerHasStatusEffect",
+                "Trance",
+                "CharmedBlowjobOrgasm",
+                "SwapLineIf",
+                "Random",
+                "Her fingers reach up to cradle your churning balls, massaging them as you draw closer and closer to orgasmic release, her slurping mouth working rhythmically up and down your length while her tongue is eagerly lapping at your leaking tip.  Your cock is gripped with an incredible suction as she tirelessly works, preparing to draw out your inevitable load.|n|The wet, sloppy sounds of her blowjob fill your ears as you get overwhelmed by the intense pleasure she's delivering to your aching shaft, her stroking and sucking perfectly calculated to send a shivering tremor of bliss through you, and as her plump lips and nimble tongue work your shaft faster and faster, you cry out as she tips you past the edge, sucking long ropes of seed up through your shaft and into her hungry mouth. |f|PlayerOrgasm|/|1|n|",
+                "As you get closer to your ball-draining eruption, she begins to deep throat your throbbing cock, wetly pumping your spasming erection from base to tip on every stroke, lovingly squeezing your tightening balls, each stroke and suck bringing you closer and closer to the brink of orgasm. |n|Every luxurious stroke ends with her throat swallowing around your cockhead, while her writhing tongue slathers the underside your throbbing erection and heavy balls, as her juicy lips send a mind-blanking surge of warm pleasure through your groin each time she roots you, milking your spasming cock faster and faster until the intense pleasure of her deep throating overwhelms you.|n| With a loud groan, you arch your back and pump thick ropes of cum into her waiting mouth.|f|PlayerOrgasm|/|1|n|",
+                "As soon as your first blast coats her tongue she sucks you deep, wrapping her lips around the base and holding your shaft all the way down her throat, letting you shoot your load straight to her belly. |n| As your orgasm subsides she slowly pulls back, lips sealed with powerful suction, draining the last drops from your shaft while you come down from your orgasmic high, fingers lovingly kneading your still-twitching balls. Mercifully she releases you once you're dry, taking a huge breath and giving you a moment to rest after the intense experience.[PlayerOrgasmLine]",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "CharmedBlowjobOrgasm",
+            "theScene": [
+                "SwapLineIf",
+                "Random",
+                "With [AttackerName]'s mouth flawlessly working over your entire trembling shaft and aching balls, she's easily able to overwhelm your spasming cock with oral pleasure. The intense suction alone feels like it could draw the cum right out of your throbbing erection, but with her long, nimble tongue lavishing every sensitive inch with affectionate licking, you feel like you're going crazy as an orgasm boils over in your hips.|n|You cry out in mindless ecstasy as you erupt inside her tightly sealed mouth, and she greedily gulps down every drop while intently sucking your cock for ever more sperm. Her plump lips and strong tongue doesn't relent for a second, stimulating the sensitve underside and crown of your twitching cockhead all through your orgasm and beyond.|f|PlayerOrgasm|/|2|n|The mind-melting and magically infused ecstasy keeps your cock incredibly hard and spurting thick ropes of cum for far longer than normal, leaving you babbling incoherently with pleasure as she milks your balls for every drop she can, massaging your twitching manhood completely dry with her suctioning mouth and wet tongue, lovingly squeezing the last drops from your length with a happy groan.|n|Finally as the intense orgasm ebbs away she gives you a moment to recover, but never stops the constant teasing stimulation her mouth is giving you.[PlayerOrgasmLine]",
+                "[AttackerName]' tongue lovingly massages and squeezes your throbbing shaft as it jerks and spasms inside her tightly sealed mouth.  Her mouth sucks on you intensely, and your entire body is left trembling with bliss as she brings you closer and closer to orgasmic bliss! |n|With a gentle squeeze of your achingly full balls you're left crying out in mindless ecstasy, the overwhelming stimulation finally coaxing out your seed in long spurts of cum that she eagerly drinks down, the intense suction only amplifying the maddening pleasure of your incredible orgasm, her tongue and fingers continue to caress your tensing balls to help milk out every drop from you.|f|PlayerOrgasm|/|2|n|The overwhelming sensations leave you moaning incoherently as you continue to cum over and over, flooding the succubus' hungry mouth with all the seed she can drink down, the intense suction and loving massage drawing out load after load from your spasming groin, leaving your thoughts drifting away in a haze of climactic ecstasy.|n|Finally as your orgasm ebbs away, she gives you a few moments to try and recover, but her dextrous tongue dextrously teasing your balls cloud your mind with pleasure.[PlayerOrgasmLine]",
+                "While keeping you firmly locked inside her sucking mouth, [AttackerName]' long tongue lovingly teases your churning balls, massaging them as you draw closer and closer to climactic release, while of her lips and tongue remain firmly wrapped around your twitching length, affectionately stroking it faster and faster while eagerly lapping at your spasming tip, driving you to the brink of climax.|n|The lewd slurping of her vacuum mouth and long tongue is vibrating in your ears as you get completely overwhelmed by the intoxicating pleasure she's soaking your groin in, her every motion and teasing suck is perfectly calculated to send a shivering tremor of bliss through you, and as her lips and tongue pump your shaft faster and faster you go moaning past the edge spurting long ropes of seed into her hungry mouth.|f|PlayerOrgasm|/|2|n|The constant stimulation to your entire groin combined with the maddening suction leaves you spurting more and more into her mouth, her lips milking and squeezing out every drop they can from you, the fifth tongue still affectionately teasing your spasming tip as you moan in incoherent orgasmic bliss.|n|Finally she relents her teasing as your orgasm ebbs away, giving you a brief moment to catch your breath before she starts massaging your aching manhood all over again with a delightful suck to start off with.[PlayerOrgasmLine]",
+                "[AttackerName]' plump lips remain firmly latched onto your rigid cock, gliding up and down with inhuman grace while she intensely sucks on your aching cock and tightening balls, leaving you gasping and moaning from the intense suction currently milking your twitching dick.|n|You're far too aroused to endure the maddening pleasure overwhelming your hips, and a dam breaks inside you as climax explodes through your groin, her intense oral vacuum completely overwhelming your manhood as you erupt into her sucking mouth, letting her drink down spurt after spurt of your seed while your body twitches in ecstasy.|f|PlayerOrgasm|/|2|n|The near insanity-inducing pleasure keeps you cumming constantly into her hungry mouth, leaving you incoherently moaning as she wrings you dry, her dextrous tongue giving you strange constantly shifting pleasure as she draws out every drop she can from your aching balls.|n|She finally gives you a moment of respite, leaving you gasping for air after the intense ecstasy she sent surging through your body, but she never quite stops licking and teasing your aching dick.[PlayerOrgasmLine]",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "LosesFightBJ",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "Your knees are turned to jelly, body wracked with pleasure and left twitching.  You doubt you could stop [AttackerName] from milking the seed from your drained, aching balls any longer...",
+                "PlayerLosesCombat"
+            ]
+        },
+        {
+            "NameOfScene": "EndOfRound",
+            "theScene": [
+                "SetChoice",
+                "1",
+                "",
+                "JumpToScene",
+                "CheckOralTemptation"
+            ]
+        },
+        {
+            "NameOfScene": "Nothing",
+            "theScene": []
+        },
+        {
+            "NameOfScene": "BlowjobTemptation",
+            "theScene": [
+                "HitPlayerWith",
+                "Suckubus Temptation",
+                "SwapLineIf",
+                "Random",
+                "You just can't keep your eyes off [AttackerName]'s plush lips, their perfect 'O' almost hypnotizing as they glide over your length.",
+                "[AttackerName] pulls away with a pop, giggling at your throbbing manhood as it twitches and bounches before she dips down to lap at your heavy balls.",
+                "You thoughtlessly hump [AttackerName]' suctioning mouth with a blissful sigh, reveling in the feeling of her soft lips rubbing along your cock.",
+                "You sigh and thrust your dick between [AttackerName]' ruby red lips, reaching down and running your fingers through her soft hair, indulging in the heavenly sensations of her warm mouth.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Suckubus Oral Enticement",
+            "theScene": [
+                "SetPostName",
+                " - Oral Enticement",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "HitPlayerWith",
+                "Seduce",
+                "With a seductive sashay of her hips, [AttackerName] steps in close to you, running her tongue over her glistening red lips while fixing you with her smouldering gaze. Her finger slowly traces its way down your chest, across your stomach, all the way down to lightly tickle your balls.",
+                "HitPlayerWith",
+                "Suckubus Temptation",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "'You know, I give some pretty amazing head.  Wanna see what I can do?♥'",
+                "'Mmmm, I'm practically drooling for your cock.♥'",
+                "'I'm about to suck your balls ♥completely dry.♥'",
+                "'Don't be scared, I won't bite.  I just want to give you a reaaallly nice blowjob.  Or three♥.'",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "IfHasPerk",
+                "Blue Balls",
+                "ForcedCheck",
+                "IfHasPerk",
+                "Aching Blue Balls",
+                "ForcedCheck",
+                "IfHasPerk",
+                "Overflowing Blue Balls",
+                "ForcedFail",
+                "IfFetishLevelEqualOrGreater",
+                "Oral",
+                "100",
+                "ForcedFail",
+                "IfFetishLevelEqualOrGreater",
+                "Oral",
+                "30",
+                "ForcedCheck",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "ForcedCheck",
+                "JumpToScene",
+                "TemptedMenu"
+            ]
+        },
+        {
+            "NameOfScene": "ForcedCheck",
+            "theScene": [
+                "Your mind is filled with erotic imagery from [AttackerName]' alluring display, making your cock twitch with desire to feed her your spunk.",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Oral",
+                "50",
+                "15",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Oral",
+                "75",
+                "20",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Oral",
+                "90",
+                "30",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "15",
+                "Temptation",
+                "5",
+                "TemptedMenu",
+                "Fail",
+                "ForcedFail"
+            ]
+        },
+        {
+            "NameOfScene": "ForcedFail",
+            "theScene": [
+                "HitPlayerWith",
+                "Seduce",
+                "You watch as her slick tongue wipes over her ruby red lips, painting them with a thick coat of glistening spit, and wiping any thoughts of resistance from your mind.",
+                "HitPlayerWith",
+                "Suckubus Temptation",
+                "As your painfully rigid cock throbs with need, her filthy words leaving you desperate to feel her lips around your needy shaft.",
+                "HitPlayerWith",
+                "Blowjob",
+                "ApplyStance",
+                "Blowjob",
+                "You watch as she sinks to her knees agonizingly slowly, leaning in to kiss the tip of your manhood.  A contented sigh escapes your lips as she bobs forward, capturing your twitching cock between her lips while teasing the underside with her tongue.",
+                "HitPlayerWith",
+                "Blowjob"
+            ]
+        },
+        {
+            "NameOfScene": "TemptedMenu",
+            "theScene": [
+                "Menu",
+                "Get a Blowjob!",
+                "Ignore her.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Ignore her.",
+            "theScene": [
+                "You completly ignore [AttackerName]'s temptation, and she finally gives up and steps back.",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Are you sure you won't let me suck it a little?  I really give the best blowjobs...",
+                "None of those other sluts can drain your balls like I can.  I'm a true mistress of the art of fellatio",
+                "Worried you'll get hooked on my blowjobs? I don't blame you, my mouth skills will melt your mind to mush.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Get a Blowjob!",
+            "theScene": [
+                "HitPlayerWith",
+                "Blowjob",
+                "ApplyStance",
+                "Blowjob",
+                "You rush forward and pull her head down to meet your hard cock! A contented sigh escapes your lips as she bobs forward, capturing your twitching shaft between her plush lips while teasing the underside with her tongue.",
+                "HitPlayerWith",
+                "Blowjob"
+            ]
+        },
+        {
+            "NameOfScene": "SexAnalStruggleFail",
+            "theScene": [
+                "ClearStanceFromMonsterAndPlayer",
+                "Sex",
+                "ClearStanceFromMonsterAndPlayer",
+                "Anal",
+                "HitPlayerWith",
+                "Blowjob",
+                "ApplyStance",
+                "Blowjob",
+                "You're able to remove yourself from [AttackerName]'s [SexAdjective][SexWord], but your cock is exposed for barely an instant before [AttackerHeOrShe] slurps your throbbing cock back between her lips."
+            ]
+        },
+        {
+            "NameOfScene": "BlowjobStruggle",
+            "theScene": [
+                "IfPlayerHasStance",
+                "Face Sit",
+                "SixtyNineStruggleFail",
+                "You remove her mouth from your cock, which pulls free with a erotic 'pop' that sends a tremor down your cock.",
+                "HitPlayerWith",
+                "Vacuum Blowjob",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "I told you I'm the Blowjob Queen of Succ U, right? {i}Come here,{/i} and let me show you what I can do with this mouth of mine.",
+                "That's just a little taste of what's to come, get it?",
+                "You've got me right where you want me, [ThePlayerName], so why pull away?",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "SixtyNineStruggleFail",
+            "theScene": [
+                "SkipPlayerAttack",
+                "ApplyStance",
+                "Blowjob",
+                "HitPlayerWith",
+                "Suckubus Pinning Sixty-Nine Capture",
+                "You try to remove her mouth from your cock, but with her big, round ass covering your face, your struggles are futile.",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "'Yeah, you're going to have a hard time escaping with me on your face.  I don't mind though, it makes my pussy feel nice when you struggle.",
+                "Why don't you just relax, enjoy the view, and let me blow you?  I'm a {i}reeeeeaally{/i} good cock sucker.",
+                "I've got you right where I want you, big guy, and you're not going anywhere.  Just lay back and cum for me.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "FaceFuckCapture",
+            "theScene": [
+                "SkipPlayerAttack",
+                "HitPlayerWith",
+                "Suckubus Powerful Suction",
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "InstinctiveFaceFuckCapture",
+                "IfMonsterHasStatusEffect",
+                "Sleep",
+                "InstinctiveFaceFuckCapture",
+                "IfMonsterHasStatusEffect",
+                "Stun",
+                "InstinctiveFaceFuckCapture",
+                "ChangeImageLayer",
+                "Expression",
+                "LewdInvitation",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "'Mmmph?!♥ Calm down big boy, I know exactly what I'm doing'",
+                "'Don't worry baby, I know how to handle this big cock.'",
+                "'Sh-Sho rough.  Wouldn't you rather relax and let me do the work?'",
+                "'I know, My throat feelsh sho good, baby... just lay there and let me take care of you♥'",
+                "EndLoop",
+                "You grab a hold of [AttackerName]'s head and roughly thrust deep into her wet mouth, hoping to take control of the situation, but instead she lets out a happy groan as you shove your dick deeper, wrapping her sinuous tongue and plump lips around your throbbing shaft and aching balls, using her tongue to draw you in deeper, leaving you moaning in ecstasy as she begins to suck intensely. |n| Meanwhile her fingers slither up to cup your balls, holding you still so she can work her skills over your length.",
+                "HitPlayerWith",
+                "Suckubus Temptation",
+                "You soon realize the mistake of indulging yourself in her mouth, as the intense pleasure leaves you helpless to resist her oral assault!"
+            ]
+        },
+        {
+            "NameOfScene": "InstinctiveFaceFuckCapture",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LewdInvitation",
+                "You take advantage of her situation to roughly thrust deep into her waiting mouth, hoping to take control with a rough face fuck, but instead her mouth works instinctively as you shove your dick deeper, wrapping her sinuous tongue and plump lips around your throbbing shaft and aching balls, using the intense suction to draw you in deeper |n| You're left moaning in ecstasy as she begins slurp and suck your cock, her vacuum-like mouth holding you trapped while she works her skills over your length.",
+                "HitPlayerWith",
+                "Suckubus Temptation",
+                "You soon realize the mistake of indulging yourself in her mouth, as the intense pleasure leaves you helpless to resist her oral assault!"
+            ]
+        },
+        {
+            "NameOfScene": "BaseOrgasm",
+            "theScene": [
+                "ApplyStance",
+                "Blowjob",
+                "ChangeImageLayer",
+                "Expresion",
+                "LipLick",
+                "SetPostName",
+                " - Quick Cum Catcher",
+                "SwapLineIf",
+                "Random",
+                "You succumb to the pleasure flooding your system and your twitching cock spurts cum onto [AttackerName]. 'Hey! Don't waste perfectly good cum!'[PlayerOrgasmLine]",
+                "'Are you seriously about to cum, [ThePlayerName]? Not outside my mouth, you're not!' With lightning speed, she wraps her lips around your tip to catch your premature release, cooing happily as you spray her tongue with hot seed.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "SuckubusBlowjob",
+            "theScene": [
+                "HitPlayerWith",
+                "Blowjob",
+                "ChangeImageLayer",
+                "Expresion",
+                "LipLick",
+                "SetPostName",
+                " - Suckubus Blowjob",
+                "HitPlayerWith",
+                "Vacuum Blowjob",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "'Time to suck you dry!♥' [AttackerName] wraps her plump lips around [TargetName]'s cock and starts to tease your tip with hot, slick tongue.",
+                "'Gotcha!♥' [AttackerName] quickly buries [TargetName]'s cock in her throat in a single stroke, giving you a slutty wink as she licks your balls.",
+                "'I'll give you the best blowjob of your life!♥' [AttackerName] licks her way from your base to tip, giving [TargetName]'s cockhead a little swirl before she starts to bob her head.",
+                "'Relax, I'm just going to take a few loads of your cum...♥' [AttackerName] gives [TargetName]'s cock a few teasing strokes with her hand before sucking your tip between her lips.",
+                "'You won't last long, so enjoy it while you can!♥' [AttackerName]'s head swoops down to [TargetName]'s shaft and you feel her suction right away, her lips making slobbering sounds over your cockhead.",
+                "'You better have a lot of cum stored up for me!♥' [AttackerName] wastes no time inhaling [TargetName]'s cock, using her hand to milk your lower shaft while her lips stroke and suck the tip.",
+                "EndLoop",
+                "SetPostName",
+                ""
+            ]
+        },
+        {
+            "NameOfScene": "HypnoBlowjob",
+            "theScene": [
+                "HitPlayerWith",
+                "Blowjob",
+                "ChangeImageLayer",
+                "Expresion",
+                "LipLick",
+                "SetPostName",
+                " - Mind-Blowing Blowjob",
+                "HitPlayerWith",
+                "Oral Tease",
+                "SwapLineIf",
+                "Random",
+                "'I'm going to suck your brains out through your dick.♥' [AttackerName] seductively wraps her plump lips around [TargetName]'s cock and languidly twirls her tongue over your tip in euphoric spirals.",
+                "'Don't resist [TargetName], let yourself get sucked down into bliss.♥' [AttackerName] slowly buries [TargetName]'s cock in her throat, drawing it down in a single agonizing stroke, giving your root a powerful suck that sends a pulse of pleasure down your length.",
+                "'If you don't struggle, I'll give you the best blowjob of your life...♥' [AttackerName] seductively plants teasing kisses from your base to tip, giving [TargetName]'s cockhead a teasing suck before dragging her lips down your shaft.",
+                "'Relax, I'm just going to take all your cum...♥' [AttackerName] gives [TargetName]'s cock a few rhythmic pumps with her hand while gently sucking [TargetHisOrHer] tip between her lips.",
+                "'You're lucky, I'm going to take it easy and make this last a looooong time.♥' [AttackerName]'s lips gently capture [TargetName]'s shaft and you feel gentle suction gripping you, slowly drawing your cock deeper into her hot, sucking mouth.",
+                "'I can tell you have a lot saved up...' [AttackerName] slowly devours [TargetName]'s cock, rhythmically pumping and milking your lower shaft while her tongue swirls around and polishes just under your cock head.",
+                "EndLoop",
+                "SetPostName",
+                ""
+            ]
+        },
+        {
+            "NameOfScene": "FaceSitting Hypnotic Suck",
+            "theScene": [
+                "ApplyStatusEffect",
+                "Trance",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Trance",
+                "12",
+                "FaceSitting Hypnotic Suck FetishGain",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Trance",
+                "8",
+                "Intense FaceSitting Hypnotic Suck",
+                "SwapLineIf",
+                "Random",
+                "The entirety of your vision is completely eclipsed by [AttackerName]'s tight ass and smooth labia.  If that weren't enough, her mouth bobs hypnotically over your cock, pinning you in place as you feel your thoughts sucked away by the vacuum of her tight lips around your shaft.",
+                "The sensation of being encased in her mouth, the rhythmic suction, and her throat massaging your tip all combine to wash away your thoughts. You can't breathe, but you're not frightened—you're ecstatic. [AttackerName]'s scent is intoxicating, and you moan into her pussy as her mouth sucks you into blissful oblivion",
+                "You let out a thoughtless moan as [AttackerName]'s plush labia presses down on your face, and your senses are flooded by her sweet feminine juices.  Meanwhile, you feel your thoughts and will slowly being sucked out, licked up by her nimble tongue along with your precum.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Intense FaceSitting Hypnotic Suck",
+            "theScene": [
+                "SwapLineIf",
+                "Random",
+                "[AttackerName]'s plump ass and smooth labia are overwhelming you as they press down on your face, and with every suck and lick of her mouth it becomes more and more tempting to submit her erotic domination as she sucks and smothers your mind into orgasmic mush.",
+                "You find yourself mindlessly worshiping [AttackerName]'s perfect pussy, and with every loving lick of your tongue, the rhythmic suction of her mouth works to siphon away your will to resist, filling your mind with wet slurping sucks and gorgeous round asses.",
+                "You let out a blissful moan as [AttackerName]'s luscious rear and suckling mouth quickly become the only thing you can think about, and as you keep lovingly nuzzling and worshiping her exquisite pussy, her tongue and lips work to drain your resistance away.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "FaceSitting Hypnotic Suck FetishGain",
+            "theScene": [
+                "SwapLineIf",
+                "Random",
+                "You moan and whimper mindlessly as the idea of submiting to her mind-blanking oral pleasure is etched into your brain with each gentle shake of [AttackerName]'s beautiful ass in your submissive face as your mind melts into mush and is sucked out through your cock.",
+                "Your every thought for the moment has been sucked away by the ravenous mouth wrapped around your cock, and you nuzzle into [AttackerName]'s slick pussy with a pleasure drunk smile, becoming more and more eager to give in to her amazing ass and plump lips as she drains the last dregs of your will.",
+                "Your every thought for the moment has been sucked away by the ravenous mouth wrapped around your cock, and you nuzzle into [AttackerName]'s slick pussy with a pleasure drunk smile, becoming more and more eager to give in to her amazing ass and plump lips as she drains the last dregs of your will.",
+                "EndLoop",
+                "ChangeFetish",
+                "Ass",
+                "5",
+                "ChangeFetish",
+                "Oral",
+                "5"
+            ]
+        },
+        {
+            "NameOfScene": "SexyButt Hypnotic Suck",
+            "theScene": [
+                "IfMonsterHasStance",
+                "Face Sit",
+                "FaceSitting Hypnotic Suck",
+                "ApplyStatusEffect",
+                "Trance",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Trance",
+                "12",
+                "SexyButt Hypnotic Suck FetishGain",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Trance",
+                "8",
+                "Intense SexyButt Hypnotic Suck",
+                "SwapLineIf",
+                "Random",
+                "[AttackerName] bobs [AttackerHisOrHer] mouth rhymically over your cock, her sultry eyes and exquisite ass holding your gaze as she slowly sucks.  |n|Your eyelids grow heavy, and you feel your thoughts sucked away by the pleasurable vacuum of her plush lips around your shaft.",
+                "The sensation of being encased in her mouth, the rhythmic suction, and her throat massaging your tip all combine to wash away your thoughts. |n|You can't tear your gaze away from [AttackerName]'s beautiful round add as it hypnotically sways like a pendulum in time with her head bobbing, and you loudly groan her mouth sucks you into blissful oblivion",
+                "You let out a thoughtless moan as [AttackerName]'s plump lips wrap around your base, your mind sinking down into blissful emptiness with her mouth's descent.|n|Watching her tight, sexy butt gently wiggling before your eyes, you feel your thoughts and will slowly being sucked out, licked up by her nimble tongue along with your precum.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Intense SexyButt Hypnotic Suck",
+            "theScene": [
+                "SwapLineIf",
+                "Random",
+                "[AttackerName]'s plump ass overwhelms you as it hypnotically swings across your vision.  With every suck and lick of her wickedly talented mouth, it becomes more and more tempting to submit her erotic domination as she sucks slurps your mind into orgasmic mush.",
+                "You find yourself mindlessly staring at [AttackerName]'s perfectly round ass, and with every bob of her lips and swing of her hips, the rhythmic suction of her mouth works to siphon away your will to resist, filling your mind with wet slurping sucks and gorgeous asses.",
+                "You let out a blissful moan as [AttackerName]'s luscious rear and suckling mouth quickly become the only thing you can think about, and as you keep lovingly caressing her hair and breasts as her tongue and lips work to drain your resistance away.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "SexyButt Hypnotic Suck FetishGain",
+            "theScene": [
+                "SwapLineIf",
+                "Random",
+                "You moan and whimper mindlessly as the idea of submiting to her mind-blanking oral pleasure is etched into your brain with each gentle sway of [AttackerName]'s beautiful ass across your lazy vision, as your mind melts into mush and is sucked out through your cock.",
+                "Your every thought for the moment has been sucked away by the ravenous mouth wrapped around your cock, and you affectionately gaze back at [AttackerName] with a pleasure drunk smile, becoming more and more eager to give in to her amazing ass and plump lips as she drains the last dregs of your will.",
+                "You shiver with pent-up need as the idea of surrendering to her sucking, slurping oral affections overtakes your mind, leaving you gasping in pleasure as your vision fills with her sexy ass sensuously rocking back and forth.",
+                "EndLoop",
+                "ChangeFetish",
+                "Ass",
+                "5",
+                "ChangeFetish",
+                "Oral",
+                "5"
+            ]
+        },
+        {
+            "NameOfScene": "SuckubusBlueBallStepCheck",
+            "theScene": [
+                "ChangeProgressBasedOnVirility",
+                "1",
+                "IfProgressEqualsOrGreater",
+                "50",
+                "SuckubusBlueBallStep"
+            ]
+        },
+        {
+            "NameOfScene": "SuckubusBlueBallStep",
+            "theScene": [
+                "IfHasPerk",
+                "Overflowing Blue Balls",
+                "EndCheck",
+                "IfHasPerk",
+                "Aching Blue Balls",
+                "AchingToOverflowing",
+                "IfHasPerk",
+                "Blue Balls",
+                "BlueToAching",
+                "JumpToScene",
+                "FineToBlue"
+            ]
+        },
+        {
+            "NameOfScene": "AchingToOverflowing",
+            "theScene": [
+                "Your cock keeps leaking pre-cum, and you can't stop thinking about the aching need to empty your balls down her throat...",
+                "RemovePerkQuietly",
+                "Aching Blue Balls",
+                "GivePerkQuietly",
+                "Overflowing Blue Balls",
+                "SetProgress",
+                "0",
+                "JumpToScene",
+                "EndCheck"
+            ]
+        },
+        {
+            "NameOfScene": "BlueToAching",
+            "theScene": [
+                "Your balls ache so much, you {i}really{/i} want to drain them into her mouth...",
+                "RemovePerkQuietly",
+                "Blue Balls",
+                "GivePerkQuietly",
+                "Aching Blue Balls",
+                "SetProgress",
+                "0",
+                "JumpToScene",
+                "EndCheck"
+            ]
+        },
+        {
+            "NameOfScene": "FineToBlue",
+            "theScene": [
+                "Your balls feel so achingly full, a blowjob sounds great...",
+                "GivePerkQuietly",
+                "Blue Balls",
+                "JumpToScene",
+                "EndCheck"
+            ]
+        },
+        {
+            "NameOfScene": "EndCheck",
+            "theScene": [
+                "The longer you spend resisting her oral attention, the more you can feel your balls swelling from her seductive magic."
+            ]
+        },
+        {
+            "NameOfScene": "Event Broke",
+            "theScene": [
+                "Event Broke.  If you see this line, post a screenshot of your history so Herb can fix.  "
+            ]
+        }
+    ]
+}

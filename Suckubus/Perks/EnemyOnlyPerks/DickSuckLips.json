@@ -1,0 +1,14 @@
+{
+    "name": "Dick Sucking Lips",
+    "description": "Increases oral type attacks damage by 25%.",
+
+    "LevelReq": "10",
+    "PerkReq": [ "Skilled Tongue"],
+    "StatReq": [ ""],
+    "StatReqAmount": [ "0"],
+
+    "PerkType": [ "OralBoost", "SeductionBoost"],
+    "EffectPower": [ "25",          "25"],
+
+    "PlayerCanPurchase": "No"
+}
